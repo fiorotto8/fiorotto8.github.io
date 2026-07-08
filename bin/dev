@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+unset HTTP_PROXY HTTPS_PROXY NO_PROXY
+
+exec bundle exec jekyll serve \
+  --config _config.yml,_config.dev.yml \
+  --livereload \
+  --force_polling \
+  --host 127.0.0.1 \
+  --port 4000 \
+  "$@"

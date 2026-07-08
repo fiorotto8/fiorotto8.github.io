@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+unset HTTP_PROXY HTTPS_PROXY NO_PROXY
+
+bundle config set --local path vendor/bundle
+bundle install

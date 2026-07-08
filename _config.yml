@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Davide Fiorina"
 title_separator          : "-"
 name                     : &name "Davide Fiorina"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Experimental particle and astroparticle physicist working on gaseous detectors, Dark Matter searches, X-ray polarimetry, and fast timing."
+url                      : https://fiorotto8.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "fiorotto8/fiorotto8.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -73,22 +73,21 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Davide Fiorina"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Experimental particle and astroparticle physicist. Gaseous detectors, Dark Matter, X-ray polarimetry, fast timing, and controlled hardware chaos."
   location         : "L' Aquila"
   employer         : Gran Sasso Science Institute (GSSI)
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=2&user=ALXUgBgAAAAJ"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57218390600"
   email            : "davide.fiorina@gssi.it"
-  researchgate     : "https://www.researchgate.net/profile/Davide-Fiorina"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "fiorotto8"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -130,20 +129,41 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CHANGELOG.md
   - Capfile
+  - CONTRIBUTING.md
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/terms.md
+  - _pages/year-archive.html
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - bin
   - config
+  - files/cv.tex
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
   - tmp
   - vendor
 keep_files:
@@ -255,7 +275,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Rome # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

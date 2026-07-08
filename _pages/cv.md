@@ -9,51 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+This is the complete CV. It is the formal document, so it behaves better than
+the rest of the website and wears a tie.
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+[Download the full CV]({{ base_path }}/files/CV.pdf){: .btn}
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Snapshot
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Current role.** Postdoctoral researcher at the Gran Sasso Science Institute
+(GSSI) and Technical Coordinator, Site Manager, GLIMOS, and RAE of the CYGNO
+experiment at LNGS.
+
+**Main detector ecosystem.** Optical-readout gaseous TPCs, triple-GEM
+detectors, Micro-Pattern Gaseous Detectors, fast-timing PICOSEC Micromegas,
+and simulation/analysis pipelines for rare-event and high-energy physics
+instrumentation.
+
+**Recent responsibilities.** CYGNO04 construction and commissioning, CYGNUS
+optical-readout coordination, EXPO in-orbit background simulations, CYGNO
+Steering Committee, CYGNO Publication Committee, and previous CMS GEM gas
+system and test-beam coordination.
+
+**Education.** PhD in Physics of Fundamental Interactions, MSc in Nuclear
+Physics, and BSc in Physics from Universita degli Studi di Pavia.
+
+## Embedded CV
+
+<object data="{{ base_path }}/files/CV.pdf" type="application/pdf" width="100%" height="820">
+  <p>Your browser is not showing the embedded PDF. No tragedy, only a small
+  inconvenience: <a href="{{ base_path }}/files/CV.pdf">download the CV here</a>.</p>
+</object>

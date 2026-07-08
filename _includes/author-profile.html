@@ -7,7 +7,24 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
+    {% assign profile_images = site.static_files | where_exp: "file", "file.path contains '/images/profile/'" %}
+    {% if profile_images.size > 0 %}
+      {% assign fallback_avatar = profile_images | first %}
+      <img src="{{ fallback_avatar.path | prepend: base_path }}" class="author__avatar js-random-profile-avatar" alt="{{ author.name }}" data-random-profile-avatar>
+      <script>
+        (function () {
+          var images = [
+            {% for image in profile_images %}
+              {{ image.path | prepend: base_path | jsonify }}{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ];
+          var avatar = document.currentScript.parentElement.querySelector('[data-random-profile-avatar]');
+          if (avatar && images.length) {
+            avatar.src = images[Math.floor(Math.random() * images.length)];
+          }
+        }());
+      </script>
+    {% elsif author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
@@ -36,9 +53,6 @@
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
-      {% endif %}
-       {% if author.researchgate %}
-        <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
@@ -103,8 +117,8 @@
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      {% if author.scopus %}
+        <li><a href="{{ author.scopus }}"><i class="fas fa-fw fa-database" aria-hidden="true"></i> Scopus</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
