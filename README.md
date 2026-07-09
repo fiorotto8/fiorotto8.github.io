@@ -45,6 +45,9 @@ bash bin/build
 - `_publications/`, `_talks/`, `_teaching/`, `_portfolio/`, `_posts/`: content collections.
 - `files/`: PDFs and downloadable files.
 - `images/profile.png`: sidebar profile image.
+- `images/profile/`: rotating sidebar/profile photos.
+- `images/research/<section>/`: square images used on the Research page.
+- `images/teaching/`: images used on Teaching & Outreach.
 
 ## Refreshing The CV Pages
 
