@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign cache_bust = site.time | date: '%s' %}
 
 <p>
 My research sits in the slightly noisy intersection between detector hardware,
@@ -18,11 +19,11 @@ occasionally interested in drama.
   <h2>CYGNO04: building an ERC-funded dark matter detector</h2>
   <div class="research-gallery">
     <figure>
-      <img src="{{ base_path }}/images/research/cygno/LIME-decommissioning.jpg" alt="LIME detector decommissioning work for CYGNO">
+      <img src="{{ base_path }}/images/research/cygno/LIME-decommissioning.jpg?v={{ cache_bust }}" alt="LIME detector decommissioning work for CYGNO">
       <figcaption>LIME decommissioning: a detector can retire, but first it must explain what it learned.</figcaption>
     </figure>
     <figure>
-      <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.jpeg" alt="CYGNO04 cleanroom detector work">
+      <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.jpeg?v={{ cache_bust }}" alt="CYGNO04 cleanroom detector work">
       <figcaption>CYGNO04 in cleanroom mode: radiopurity, patience, and many small things behaving at once.</figcaption>
     </figure>
   </div>
@@ -46,11 +47,11 @@ occasionally interested in drama.
   <h2>Optical TPCs for X-ray polarimetry</h2>
   <div class="research-gallery">
     <figure>
-      <img src="{{ base_path }}/images/research/xray-polarimetry/poalrimetry-test.jpg.png" alt="Laboratory X-ray polarimetry detector test">
+      <img src="{{ base_path }}/images/research/xray-polarimetry/poalrimetry-test.jpg.png?v={{ cache_bust }}" alt="Laboratory X-ray polarimetry detector test">
       <figcaption>Polarimetry tests: small tracks, big expectations, absolutely no tolerance for lazy reconstruction.</figcaption>
     </figure>
     <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/xray-polarimetry/polarimetry-schetck.png" alt="X-ray polarimetry reconstruction sketch">
+      <img src="{{ base_path }}/images/research/xray-polarimetry/polarimetry-schetck.png?v={{ cache_bust }}" alt="X-ray polarimetry reconstruction sketch">
       <figcaption>From photoelectron track to polarization angle: a tiny detective story with pixels.</figcaption>
     </figure>
   </div>
@@ -74,11 +75,11 @@ occasionally interested in drama.
   <h2>PICOSEC timing for future muon colliders</h2>
   <div class="research-gallery">
     <figure>
-      <img src="{{ base_path }}/images/research/picosec/picosec-testbeam.png" alt="PICOSEC detector test-beam activity">
+      <img src="{{ base_path }}/images/research/picosec/picosec-testbeam.png?v={{ cache_bust }}" alt="PICOSEC detector test-beam activity">
       <figcaption>Test beam mode: the detector gets nervous, the timing gets sharp, everyone pretends this is normal.</figcaption>
     </figure>
     <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/picosec/picosec-timeresolution.png" alt="PICOSEC timing resolution result">
+      <img src="{{ base_path }}/images/research/picosec/picosec-timeresolution.png?v={{ cache_bust }}" alt="PICOSEC timing resolution result">
       <figcaption>Timing resolution: where picoseconds become a personality trait.</figcaption>
     </figure>
   </div>
@@ -100,11 +101,11 @@ occasionally interested in drama.
   <h2>CMS GEM detectors, from R&amp;D to operations</h2>
   <div class="research-gallery">
     <figure>
-      <img src="{{ base_path }}/images/research/cms-gem/gif++-test1.jpg" alt="CMS GEM detector test at GIF++">
+      <img src="{{ base_path }}/images/research/cms-gem/gif++-test1.jpg?v={{ cache_bust }}" alt="CMS GEM detector test at GIF++">
       <figcaption>GIF++ tests: radiation, gas, chambers, and the comforting smell of a checklist doing its job.</figcaption>
     </figure>
     <figure>
-      <img src="{{ base_path }}/images/research/cms-gem/magnet-test.jpg" alt="CMS GEM detector magnetic-field test">
+      <img src="{{ base_path }}/images/research/cms-gem/magnet-test.jpg?v={{ cache_bust }}" alt="CMS GEM detector magnetic-field test">
       <figcaption>Magnetic-field tests: asking a detector to stay elegant while the universe becomes less convenient.</figcaption>
     </figure>
   </div>
@@ -126,15 +127,15 @@ occasionally interested in drama.
   <h2>New R&amp;D: neutrinos, space, and CEvNS</h2>
   <div class="research-gallery research-gallery--three">
     <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/R%26D/superK-tank.png" alt="Super-Kamiokande detector tank">
+      <img src="{{ base_path }}/images/research/R%26D/superK-tank.png?v={{ cache_bust }}" alt="Super-Kamiokande detector tank">
       <figcaption>Super-Kamiokande: directional solar neutrinos, where the Sun leaves a very delicate arrow.</figcaption>
     </figure>
     <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/R%26D/EXPO.png" alt="EXPO satellite concept">
+      <img src="{{ base_path }}/images/research/R%26D/EXPO.png?v={{ cache_bust }}" alt="EXPO satellite concept">
       <figcaption>EXPO: instrument-team work and space-environment simulation, because orbit is not a gentle test bench.</figcaption>
     </figure>
     <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/R%26D/CEvNS.png" alt="High-pressure CF4 TPC concept for CEvNS detection">
+      <img src="{{ base_path }}/images/research/R%26D/CEvNS.png?v={{ cache_bust }}" alt="High-pressure CF4 TPC concept for CEvNS detection">
       <figcaption>CEvNS in high-pressure CF4: tiny nuclear recoils, large pressure, reasonable ambition.</figcaption>
     </figure>
   </div>

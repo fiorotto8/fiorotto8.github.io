@@ -239,4 +239,18 @@
       text-decoration: underline;
     }
   }
+
+  .author__employer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    white-space: normal;
+  }
+
+  .author__employer-logo {
+    width: 1.15em;
+    height: 1.15em;
+    object-fit: contain;
+    flex: 0 0 auto;
+  }
 }

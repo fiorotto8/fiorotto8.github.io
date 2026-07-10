@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign cache_bust = site.time | date: '%s' %}
 
 <p>
 Teaching, supervision, school laboratories, public seminars, visits, and other
@@ -14,11 +15,11 @@ ways of persuading physics to leave the detector hall and speak human.
 
 <div class="teaching-gallery">
   <figure>
-    <img src="{{ base_path }}/images/teaching/DRD1-school.png" alt="DRD1 detector school teaching activity">
+    <img src="{{ base_path }}/images/teaching/DRD1-school.png?v={{ cache_bust }}" alt="DRD1 detector school teaching activity">
     <figcaption>Detector school mode: first explain the avalanche, then hope the setup also listened.</figcaption>
   </figure>
   <figure>
-    <img src="{{ base_path }}/images/teaching/public-talk.png" alt="Public outreach talk">
+    <img src="{{ base_path }}/images/teaching/public-talk.png?v={{ cache_bust }}" alt="Public outreach talk">
     <figcaption>Public talks: translating detector dialect into human language, with only moderate turbulence.</figcaption>
   </figure>
 </div>

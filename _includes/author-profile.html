@@ -8,28 +8,30 @@
   {% assign cache_bust = site.time | date: '%s' %}
 
   <div class="author__avatar">
-    {% assign profile_images = site.static_files | where_exp: "file", "file.path contains '/images/profile/' and not file.path contains '/images/profile/not-to-use/'" %}
-    {% if profile_images.size > 0 %}
-      {% assign fallback_avatar = profile_images | first %}
-      <img src="{{ fallback_avatar.path | prepend: base_path }}?v={{ cache_bust }}" class="author__avatar js-random-profile-avatar" alt="{{ author.name }}" data-random-profile-avatar>
-      <script>
-        (function () {
-          var images = [
-            {% for image in profile_images %}
-              {{ image.path | prepend: base_path | append: "?v=" | append: cache_bust | jsonify }}{% unless forloop.last %},{% endunless %}
-            {% endfor %}
-          ];
-          var avatar = document.currentScript.parentElement.querySelector('[data-random-profile-avatar]');
-          if (avatar && images.length) {
-            avatar.src = images[Math.floor(Math.random() * images.length)];
-          }
-        }());
-      </script>
-    {% elsif author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+    {% if author.avatar contains "://" %}
+      {% assign fallback_avatar_src = author.avatar %}
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      {% assign fallback_avatar_src = author.avatar | prepend: "/images/" | prepend: base_path | append: "?v=" | append: cache_bust %}
     {% endif %}
+    <img src="{{ fallback_avatar_src }}" class="author__avatar js-random-profile-avatar" alt="{{ author.name }}" data-random-profile-avatar>
+    <script>
+      (function () {
+        var images = [
+          {% for image in site.static_files %}
+            {% if image.path contains '/images/profile/' %}
+              {% assign profile_relative_path = image.path | remove_first: '/images/profile/' %}
+              {% unless profile_relative_path contains '/' %}
+                {{ image.path | prepend: base_path | append: "?v=" | append: cache_bust | jsonify }},
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        ];
+        var avatar = document.currentScript.parentElement.querySelector('[data-random-profile-avatar]');
+        if (avatar && images.length) {
+          avatar.src = images[Math.floor(Math.random() * images.length)];
+        }
+      }());
+    </script>
   </div>
 
   <div class="author__content">
@@ -44,7 +46,12 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><a href="https://maps.app.goo.gl/Z5qPP9Ywm2SzLgq39" target="_blank" rel="noopener"><img src="{{ '/images/gssi-logo.png' | prepend: base_path }}?v={{ cache_bust }}" alt="GSSI" style="height: 1em; width: auto; vertical-align: -0.1em; margin-right: 0.35em;">{{ author.employer }}</a></li>
+        <li>
+          <a class="author__employer-link" href="https://maps.app.goo.gl/Z5qPP9Ywm2SzLgq39" target="_blank" rel="noopener">
+            <img class="author__employer-logo" src="{{ '/images/gssi-logo.png' | prepend: base_path }}?v={{ cache_bust }}" alt="GSSI">
+            <span>{{ author.employer }}</span>
+          </a>
+        </li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
