@@ -1,40 +1,67 @@
 /* ==========================================================================
-   Site Refresh — Additive design system for the portfolio redesign
+   Site Refresh — Dark technical editorial design system
 
-   This file is intentionally namespaced under .site-shell so that pages
-   still using the inherited AcademicPages layouts are unaffected.
+   All tokens and styles are scoped under body.portfolio-theme so that pages
+   still using the inherited AcademicPages layouts remain visually unchanged.
 
-   All tokens come from docs/redesign/MASTER_SPEC.md  (sections 11-13).
+   Inherits from AcademicPages/Minimal Mistakes theme which uses SCSS variables.
+   This file overrides with CSS custom properties scoped to portfolio-theme.
    ========================================================================== */
 
 
 /* --------------------------------------------------------------------------
-   1. Colour tokens
+   1. Colour tokens & typography (scoped to portfolio-theme)
    -------------------------------------------------------------------------- */
 
-:root {
-  --refresh-bg: #f6f8fa;
-  --refresh-surface: #ffffff;
-  --refresh-text: #17212b;
-  --refresh-muted: #5f6b76;
-  --refresh-border: #dce3e8;
-  --refresh-accent: #007b87;
-  --refresh-accent-dark: #005e68;
-  --refresh-warm: #d85b42;
-  --refresh-dark: #10212b;
-  --refresh-dark-text: #f4f7f8;
-}
+body.portfolio-theme {
+  --refresh-bg: #0b1117;
+  --refresh-surface: #121b24;
+  --refresh-surface-raised: #18232e;
+  --refresh-surface-soft: #0f1820;
 
+  --refresh-text: #edf3f6;
+  --refresh-muted: #a6b2bd;
+  --refresh-subtle: #7f8d98;
 
-/* --------------------------------------------------------------------------
-   2. Typography
-   -------------------------------------------------------------------------- */
+  --refresh-border: #293743;
+  --refresh-border-strong: #3a4b59;
 
-/* --------------------------------------------------------------------------
-   3. Width constraints & spacing
-   -------------------------------------------------------------------------- */
+  --refresh-accent: #55c2c3;
+  --refresh-accent-hover: #79d4d3;
+  --refresh-accent-dark: #248f96;
 
-:root {
+  --refresh-warm: #ef8065;
+  --refresh-dark: #071015;
+  --refresh-dark-text: #f7fafb;
+
+  /* Masthead-specific colours */
+  --masthead-bg: #0f1820;
+  --masthead-border: #334653;
+  --nav-text: #f4f8fa;
+  --nav-secondary: #dbe5ea;
+  --nav-hover: #ffffff;
+  --nav-active-accent: #79d4d3;
+  --nav-hover-surface: #192732;
+  --mobile-dropdown-bg: #121d26;
+  --mobile-dropdown-border: #293743;
+
+  /* Button colours */
+  --btn-primary-bg: #65cfcd;
+  --btn-primary-text: #071015;
+  --btn-primary-hover: #8adfdd;
+  --btn-secondary-bg: #18232e;
+  --btn-secondary-text: #f4f8fa;
+  --btn-secondary-border: #5c7484;
+  --btn-secondary-hover-bg: #22323e;
+  --btn-secondary-hover-border: #79d4d3;
+
+  /* Link colours */
+  --link-color: #8adbd9;
+  --link-hover: #b8efed;
+
+  /* Focus */
+  --focus-ring: #9be5e2;
+
   --text-xs: clamp(0.75rem, 0.72rem + 0.1vw, 0.82rem);
   --text-sm: clamp(0.88rem, 0.84rem + 0.15vw, 0.98rem);
   --text-base: clamp(1rem, 0.96rem + 0.2vw, 1.12rem);
@@ -57,36 +84,27 @@
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 22px;
-  --shadow-soft: 0 14px 40px rgba(16, 33, 43, 0.08);
+  --shadow-soft: 0 14px 40px rgba(7, 16, 21, 0.35);
 }
 
 
 /* --------------------------------------------------------------------------
-   4. Full-width page wrapper (.site-shell / .site-content)
+   2. Page wrapper & shell
    -------------------------------------------------------------------------- */
 
-.site-shell {
+body.portfolio-theme .site-shell {
   background-color: var(--refresh-bg);
   color: var(--refresh-text);
   font-family:
-    Inter,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
+    Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: var(--text-base);
   line-height: 1.6;
   min-height: 100vh;
-
-  /* Ensure the shell doesn't collapse on fluid grids from inherited styles */
   max-width: none;
 }
 
-.site-content {
+body.portfolio-theme .site-content {
   max-width: var(--site-max);
   margin: 0 auto;
   padding: var(--space-4) var(--space-3);
@@ -94,18 +112,17 @@
 
 
 /* --------------------------------------------------------------------------
-   5. Section spacing foundation
+   3. SECTION SPACING & HEADINGS
    -------------------------------------------------------------------------- */
 
-.site-content > section {
+body.portfolio-theme .site-content > section {
   margin: var(--space-6) 0;
-
-  &:first-child {
-    margin-top: 0;
-  }
+}
+body.portfolio-theme .site-content > section:first-child {
+  margin-top: 0;
 }
 
-.section-heading {
+body.portfolio-theme .section-heading {
   font-size: var(--text-xl);
   font-weight: 700;
   line-height: 1.2;
@@ -114,18 +131,111 @@
 }
 
 
-/* --------------------------------------------------------------------------
-   6. Buttons
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   MASTHEAD & NAVIGATION — Aggressive overrides for inherited theme
+   ========================================================================== */
 
-.button-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  align-items: center;
+/* Root cause of light masthead:
+   .greedy-nav has `background: $background-color` (#fff) in _navigation.scss.
+   .masthead has `border-bottom: 1px solid $border-color`.
+   .hidden-links has hardcoded `background: #fff` and white arrow pseudo-elements.
+   All links use $masthead-link-color (grey).
+*/
+
+/* Masthead container */
+body.portfolio-theme .masthead {
+  background-color: var(--masthead-bg);
+  border-bottom-color: var(--masthead-border) !important;
+}
+body.portfolio-theme .masthead__inner-wrap {
+  background-color: var(--masthead-bg);
 }
 
-.site-button {
+/* Greedy nav (the actual nav bar) */
+body.portfolio-theme .greedy-nav {
+  background: var(--masthead-bg);
+}
+
+/* Site title / name link */
+body.portfolio-theme .greedy-nav a,
+body.portfolio-theme .greedy-nav .visible-links a {
+  color: var(--nav-text);
+}
+body.portfolio-theme .greedy-nav a:hover,
+body.portfolio-theme .greedy-nav .visible-links a:hover {
+  color: var(--nav-hover);
+}
+
+/* Active state pseudo-element (::before) on visible nav links — overrides inherited blue */
+body.portfolio-theme .greedy-nav .visible-links a:before {
+  background: var(--nav-active-accent);
+}
+
+/* Large site title (first link) */
+body.portfolio-theme .greedy-nav .masthead__menu-item--lg a,
+body.portfolio-theme .greedy-nav .masthead__menu-item--lg a:hover {
+  color: var(--nav-text);
+  font-weight: 700;
+}
+
+/* Mobile toggle button */
+body.portfolio-theme .greedy-nav button,
+body.portfolio-theme .greedy-nav .greedy-nav__toggle {
+  background-color: #293743;
+  color: var(--nav-text);
+  border: none;
+}
+body.portfolio-theme .greedy-nav button:focus,
+body.portfolio-theme .greedy-nav .greedy-nav__toggle:focus {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Navicon lines (the hamburger icon) */
+body.portfolio-theme .greedy-nav .navicon,
+body.portfolio-theme .greedy-nav button .navicon,
+body.portfolio-theme .greedy-nav button::before,
+body.portfolio-theme .greedy-nav button::after {
+  background-color: var(--nav-text);
+}
+
+/* Hidden links dropdown (mobile menu) — overrides hardcoded #fff */
+body.portfolio-theme .greedy-nav .hidden-links {
+  background: var(--mobile-dropdown-bg);
+  border-color: var(--mobile-dropdown-border);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+body.portfolio-theme .greedy-nav .hidden-links a {
+  color: var(--nav-text);
+  padding: 10px 20px;
+}
+body.portfolio-theme .greedy-nav .hidden-links a:hover {
+  background: var(--nav-hover-surface);
+  color: var(--nav-hover);
+}
+body.portfolio-theme .greedy-nav .hidden-links li {
+  border-bottom-color: var(--mobile-dropdown-border);
+}
+
+/* Arrow pseudo-elements on hidden-links — overrides white arrow */
+body.portfolio-theme .greedy-nav .hidden-links:before {
+  border-color: var(--mobile-dropdown-border) transparent;
+}
+body.portfolio-theme .greedy-nav .hidden-links:after {
+  border-color: var(--mobile-dropdown-bg) transparent;
+}
+
+
+/* ==========================================================================
+   BUTTONS — Override inherited .btn styles under portfolio-theme
+   ========================================================================== */
+
+/* Root cause of low-contrast buttons:
+   Inherited .btn has `color: #fff !important` and `background-color: $primary-color (#7a8288)`.
+   This gives white text on grey = only ~2.5:1 contrast ratio (fails WCAG).
+*/
+
+body.portfolio-theme .site-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -143,48 +253,84 @@
               border-color 0.18s ease,
               transform 0.18s ease,
               box-shadow 0.18s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-  }
-
-  /* Accessible focus-visible ring */
-  &:focus-visible {
-    outline: 3px solid var(--refresh-accent);
-    outline-offset: 2px;
-  }
+}
+body.portfolio-theme .site-button:hover {
+  transform: translateY(-2px);
+}
+body.portfolio-theme .site-button:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
 }
 
-.site-button--primary {
-  background-color: var(--refresh-accent);
-  color: var(--refresh-dark-text);
-  border-color: var(--refresh-accent);
-
-  &:hover {
-    background-color: var(--refresh-accent-dark);
-    border-color: var(--refresh-accent-dark);
-    color: var(--refresh-dark-text);
-  }
+/* Primary button — teal background, dark text */
+body.portfolio-theme .site-button--primary {
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text) !important;
+  border-color: var(--btn-primary-bg);
+}
+body.portfolio-theme .site-button--primary:hover {
+  background-color: var(--btn-primary-hover);
+  border-color: var(--btn-primary-hover);
+  color: var(--btn-primary-text);
 }
 
-.site-button--secondary {
-  background-color: transparent;
-  color: var(--refresh-text);
-  border-color: var(--refresh-border);
+/* Secondary button — dark background, light text */
+body.portfolio-theme .site-button--secondary {
+  background-color: var(--btn-secondary-bg);
+  color: var(--btn-secondary-text) !important;
+  border-color: var(--btn-secondary-border);
+}
+body.portfolio-theme .site-button--secondary:hover {
+  background-color: var(--btn-secondary-hover-bg);
+  border-color: var(--btn-secondary-hover-border);
+  color: #ffffff !important;
+}
 
-  &:hover {
-    background-color: var(--refresh-surface);
-    border-color: var(--refresh-accent);
-    color: var(--refresh-accent);
-  }
+/* Override inherited .btn classes that might leak into portfolio pages */
+body.portfolio-theme .btn,
+body.portfolio-theme .site-content .btn {
+  background-color: var(--btn-primary-bg) !important;
+  border-color: var(--btn-primary-bg) !important;
+  color: var(--btn-primary-text) !important;
+}
+body.portfolio-theme .btn:hover,
+body.portfolio-theme .site-content .btn:hover {
+  background-color: var(--btn-primary-hover) !important;
+  border-color: var(--btn-primary-hover) !important;
+}
+body.portfolio-theme .btn--inverse,
+body.portfolio-theme .site-content .btn--inverse {
+  background-color: var(--btn-secondary-bg) !important;
+  border-color: var(--btn-secondary-border) !important;
+  color: var(--btn-secondary-text) !important;
+}
+body.portfolio-theme .btn--inverse:hover,
+body.portfolio-theme .site-content .btn--inverse:hover {
+  background-color: var(--btn-secondary-hover-bg) !important;
+  border-color: var(--btn-secondary-hover-border) !important;
+  color: #ffffff !important;
 }
 
 
-/* --------------------------------------------------------------------------
-   7. Project cards
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   LINKS
+   ========================================================================== */
 
-.project-grid {
+body.portfolio-theme .site-shell a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+body.portfolio-theme .site-shell a:hover,
+body.portfolio-theme .site-shell a:focus {
+  color: var(--link-hover);
+}
+
+
+/* ==========================================================================
+   PROJECT CARDS
+   ========================================================================== */
+
+body.portfolio-theme .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-3);
@@ -193,76 +339,78 @@
   padding: 0;
 }
 
-.project-card {
-  background: var(--refresh-surface);
+body.portfolio-theme .project-card {
+  background: var(--refresh-surface-raised);
   border: 1px solid var(--refresh-border);
   border-radius: var(--radius-md);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-soft);
-  }
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+body.portfolio-theme .project-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--refresh-border-strong);
+  box-shadow: var(--shadow-soft);
 }
 
-.project-card__image-wrapper {
+body.portfolio-theme .project-card__image-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 10;
   overflow: hidden;
-  background: var(--refresh-bg);
+  background: var(--refresh-surface-soft);
 }
-
-.project-card__image {
+body.portfolio-theme .project-card__image {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.2s ease;
 }
-
-.project-card:hover .project-card__image {
+body.portfolio-theme .project-card:hover .project-card__image {
   transform: scale(1.02);
 }
 
-.project-card__body {
+body.portfolio-theme .project-card__body {
   padding: var(--space-2) var(--space-3) var(--space-3);
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
 }
-
-.project-card__title {
+body.portfolio-theme .project-card__title {
   font-size: var(--text-lg);
   font-weight: 700;
   line-height: 1.25;
   margin: 0;
   color: var(--refresh-text);
 }
-
-.project-card__text {
+body.portfolio-theme .project-card__text {
   font-size: var(--text-sm);
   color: var(--refresh-muted);
   line-height: 1.5;
   margin: 0;
 }
-
-.project-card__role {
+body.portfolio-theme .project-card__role {
   font-size: var(--text-sm);
   color: var(--refresh-text);
   margin: 0;
 }
 
+/* Diagram images with contain mode */
+body.portfolio-theme .project-card__image--contain {
+  object-fit: contain;
+  padding: var(--space-2);
+  background: var(--refresh-surface-soft);
+}
 
-/* --------------------------------------------------------------------------
-   8. Tags
-   -------------------------------------------------------------------------- */
 
-.project-tags {
+/* ==========================================================================
+   TAGS & LABELS
+   ========================================================================== */
+
+body.portfolio-theme .project-tags {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-1);
@@ -270,57 +418,32 @@
   margin: 0;
   padding: 0;
 }
-
-.project-tag {
+body.portfolio-theme .project-tag {
   display: inline-block;
   font-size: var(--text-xs);
-  font-family:
-    "SFMono-Regular",
-    Consolas,
-    "Liberation Mono",
-    monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   color: var(--refresh-accent);
-  background: rgba(0, 123, 135, 0.07);
+  background: rgba(85, 194, 195, 0.07);
   border: 1px solid var(--refresh-border);
   border-radius: var(--radius-sm);
   padding: 0.2em 0.6em;
   line-height: 1.5;
 }
 
-
-/* --------------------------------------------------------------------------
-   9. Status / technical labels
-   -------------------------------------------------------------------------- */
-
-.status-label {
+body.portfolio-theme .status-label {
   font-size: var(--text-xs);
-  font-family:
-    "SFMono-Regular",
-    Consolas,
-    "Liberation Mono",
-    monospace;
-  color: var(--refresh-muted);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  color: var(--refresh-subtle);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
 
-/* --------------------------------------------------------------------------
-   10. Image defaults (scoped to .site-content)
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   STATUS STRIP
+   ========================================================================== */
 
-.site-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--radius-sm);
-}
-
-
-/* --------------------------------------------------------------------------
-   11. Status strip (homepage)
-   -------------------------------------------------------------------------- */
-
-.status-strip {
+body.portfolio-theme .status-strip {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: var(--space-2) var(--space-3);
@@ -328,288 +451,129 @@
   color: var(--refresh-dark-text);
   border-radius: var(--radius-md);
   padding: var(--space-3);
+  border: 1px solid var(--refresh-border);
 }
-
-.status-strip__item {
+body.portfolio-theme .status-strip__item {
   font-size: var(--text-sm);
   line-height: 1.5;
 }
-
-.status-strip__label {
-  font-family:
-    "SFMono-Regular",
-    Consolas,
-    "Liberation Mono",
-    monospace;
+body.portfolio-theme .status-strip__label {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: rgba(244, 247, 248, 0.55);
+  color: rgba(247, 250, 251, 0.50);
   display: block;
   margin-bottom: 0.15em;
 }
 
 
-/* --------------------------------------------------------------------------
-   12. Hero section (homepage)
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   HERO SECTION
+   ========================================================================== */
 
-.home-hero {
+body.portfolio-theme .home-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-4);
   align-items: center;
   padding: var(--space-5) 0;
 }
-
-.home-hero__text {
+body.portfolio-theme .home-hero__text {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
 }
-
-.hero-kicker {
+body.portfolio-theme .hero-kicker {
   font-size: var(--text-sm);
-  font-family:
-    "SFMono-Regular",
-    Consolas,
-    "Liberation Mono",
-    monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   color: var(--refresh-accent);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   margin: 0;
 }
-
-.home-hero__title {
+body.portfolio-theme .home-hero__title {
   font-size: var(--text-hero);
   font-weight: 700;
   line-height: 1.05;
   margin: 0;
   color: var(--refresh-text);
 }
-
-.home-hero__lead {
+body.portfolio-theme .home-hero__lead {
   font-size: var(--text-lg);
   line-height: 1.4;
   color: var(--refresh-muted);
   margin: 0;
 }
-
-.hero-actions {
+body.portfolio-theme .hero-actions {
   margin-top: var(--space-2);
 }
+body.portfolio-theme .button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
 
-.home-hero__image-wrapper {
+body.portfolio-theme .home-hero__image-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.home-hero__image {
+body.portfolio-theme .home-hero__image {
   width: 100%;
   max-width: 420px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: var(--radius-lg);
+  border: 1px solid var(--refresh-border-strong);
   box-shadow: var(--shadow-soft);
 }
 
 
-/* --------------------------------------------------------------------------
-   13. Reduced-motion handling (required)
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   COMPACT LIST (publications / talks)
+   ========================================================================== */
 
-@media (prefers-reduced-motion: reduce) {
-  .site-shell *,
-  .site-shell *::before,
-  .site-shell *::after {
-    scroll-behavior: auto !important;
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  .project-card:hover,
-  .site-button:hover {
-    transform: none;
-  }
-
-  .project-card:hover .project-card__image {
-    transform: none;
-  }
-}
-
-
-/* --------------------------------------------------------------------------
-   14. Responsive breakpoints
-   -------------------------------------------------------------------------- */
-
-/* Tablet: 700-1099 px */
-@media (max-width: 1099px) {
-  .project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .home-hero {
-    gap: var(--space-3);
-  }
-}
-
-/* Mobile: below 700 px */
-@media (max-width: 699px) {
-  .site-content {
-    padding: var(--space-3) var(--space-2);
-  }
-
-  .site-content > section {
-    margin: var(--space-4) 0;
-  }
-
-  .home-hero {
-    grid-template-columns: 1fr;
-    gap: var(--space-3);
-    padding: var(--space-3) 0;
-  }
-
-  .home-hero__image-wrapper {
-    order: -1;
-  }
-
-  .home-hero__image {
-    max-width: 280px;
-  }
-
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .status-strip {
-    grid-template-columns: 1fr;
-  }
-
-  .button-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .site-button {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
-/* --------------------------------------------------------------------------
-   15. Compact list (publications / talks)
-   -------------------------------------------------------------------------- */
-
-.compact-list {
+body.portfolio-theme .compact-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-.compact-list__item {
+body.portfolio-theme .compact-list__item {
   padding: var(--space-2) 0;
-  border-bottom: 1px solid var(--refresh-border);
-
-  &:first-child {
-    border-top: 1px solid var(--refresh-border);
-  }
+  border-bottom-color: var(--refresh-border);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+body.portfolio-theme .compact-list__item:first-child {
+  border-top: 1px solid var(--refresh-border);
 }
 
 
-/* --------------------------------------------------------------------------
-   16. Teaching cards grid
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   EARLIER PROGRAMMES
+   ========================================================================== */
 
-.teaching-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: var(--space-3);
-}
-
-.teaching-card {
-  background: var(--refresh-surface);
-  border: 1px solid var(--refresh-border);
-  border-radius: var(--radius-md);
-  padding: var(--space-3);
-}
-
-
-/* --------------------------------------------------------------------------
-   17. Metrics panel (publications)
-   -------------------------------------------------------------------------- */
-
-.metrics-panel {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: var(--space-2);
-  margin: var(--space-3) 0;
-}
-
-.metric-card {
-  background: var(--refresh-surface);
-  border: 1px solid var(--refresh-border);
-  border-radius: var(--radius-sm);
-  padding: var(--space-2) var(--space-3);
-  text-align: center;
-}
-
-.metric-card__value {
-  display: block;
-  font-size: var(--text-xl);
-  font-weight: 700;
-  color: var(--refresh-accent);
-  line-height: 1.2;
-}
-
-.metric-card__label {
-  display: block;
-  font-size: var(--text-xs);
-  color: var(--refresh-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-top: 0.15em;
-}
-
-
-/* --------------------------------------------------------------------------
-   18. Featured talks grid
-   -------------------------------------------------------------------------- */
-
-.featured-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: var(--space-3);
-}
-
-
-/* --------------------------------------------------------------------------
-   19. Previous detector work (compact horizontal entries)
-   -------------------------------------------------------------------------- */
-
-.earlier-programme {
+body.portfolio-theme .earlier-programme {
   padding: var(--space-3) 0;
-  border-bottom: 1px solid var(--refresh-border);
-
-  &:first-of-type {
-    padding-top: 0;
-  }
-
-  &:last-of-type {
-    border-bottom: none;
-  }
+  border-bottom-color: var(--refresh-border);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
-
-.earlier-programme__title {
+body.portfolio-theme .earlier-programme:first-of-type {
+  padding-top: 0;
+}
+body.portfolio-theme .earlier-programme:last-of-type {
+  border-bottom: none;
+}
+body.portfolio-theme .earlier-programme__title {
   font-size: var(--text-lg);
   font-weight: 700;
   margin: 0 0 var(--space-1) 0;
+  color: var(--refresh-text);
 }
-
-.earlier-programme__text {
+body.portfolio-theme .earlier-programme__text {
   font-size: var(--text-base);
   color: var(--refresh-muted);
   line-height: 1.6;
@@ -617,12 +581,12 @@
 }
 
 
-/* --------------------------------------------------------------------------
-   20. Contact block (homepage)
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   CONTACT BLOCK
+   ========================================================================== */
 
-.contact-block {
-  background: var(--refresh-surface);
+body.portfolio-theme .contact-block {
+  background: var(--refresh-surface-raised);
   border: 1px solid var(--refresh-border);
   border-radius: var(--radius-md);
   padding: var(--space-4);
@@ -630,117 +594,112 @@
 }
 
 
-/* --------------------------------------------------------------------------
-   21. Research project blocks (detailed page)
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   FOOTER — Dark treatment under portfolio-theme
+   ========================================================================== */
 
-.research-project {
-  margin: var(--space-5) 0;
-  padding-top: var(--space-4);
-  border-top: 1px solid var(--refresh-border);
-
-  &:first-of-type {
-    margin-top: 0;
-  }
+body.portfolio-theme .page__footer {
+  background-color: var(--refresh-dark) !important;
+  border-top-color: var(--refresh-border) !important;
+  color: var(--refresh-subtle);
 }
-
-.research-project--featured {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-4);
-  align-items: start;
-}
-
-.research-project__body {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-}
-
-.research-project__objective {
-  font-size: var(--text-lg);
-  line-height: 1.45;
-  margin: 0;
-  font-weight: 600;
-  color: var(--refresh-text);
-}
-
-.research-project__role-title {
-  font-size: var(--text-sm);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+body.portfolio-theme .page__footer a {
   color: var(--refresh-muted);
-  margin: 0;
+}
+body.portfolio-theme .page__footer a:hover,
+body.portfolio-theme .page__footer a:focus {
+  color: var(--link-color);
+}
+body.portfolio-theme .page__footer-copyright {
+  color: var(--refresh-subtle);
+}
+body.portfolio-theme .page__footer-follow a {
+  color: var(--refresh-muted);
+}
+body.portfolio-theme .page__footer-follow a:hover,
+body.portfolio-theme .page__footer-follow a:focus {
+  color: var(--link-color);
 }
 
-.research-project__role-text {
-  font-size: var(--text-base);
-  line-height: 1.6;
-  margin: 0;
-  color: var(--refresh-text);
+
+/* ==========================================================================
+   GLOBAL FOCUS STATES & KEYBOARD ACCESSIBILITY
+   ========================================================================== */
+
+body.portfolio-theme .masthead a:focus-visible,
+body.portfolio-theme .site-button:focus-visible,
+body.portfolio-theme .greedy-nav button:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
 }
 
-.research-project__bullets {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-1);
-}
 
-.research-project__bullets li {
-  position: relative;
-  padding-left: 1.25em;
-  font-size: var(--text-base);
-  line-height: 1.55;
+/* ==========================================================================
+   REDUCED MOTION
+   ========================================================================== */
 
-  &::before {
-    content: "-";
-    position: absolute;
-    left: 0;
-    color: var(--refresh-accent);
-    font-weight: 700;
+@media (prefers-reduced-motion: reduce) {
+  body.portfolio-theme .site-shell *,
+  body.portfolio-theme .site-shell *::before,
+  body.portfolio-theme .site-shell *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  body.portfolio-theme .project-card:hover,
+  body.portfolio-theme .site-button:hover {
+    transform: none;
+  }
+  body.portfolio-theme .project-card:hover .project-card__image {
+    transform: none;
   }
 }
 
-.research-project__image {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  border-radius: var(--radius-md);
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS
+   ========================================================================== */
+
+@media (max-width: 1099px) {
+  body.portfolio-theme .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body.portfolio-theme .home-hero {
+    gap: var(--space-3);
+  }
 }
 
-@media (max-width: 799px) {
-  .research-project--featured {
+@media (max-width: 699px) {
+  body.portfolio-theme .site-content {
+    padding: var(--space-3) var(--space-2);
+  }
+  body.portfolio-theme .site-content > section {
+    margin: var(--space-4) 0;
+  }
+  body.portfolio-theme .home-hero {
     grid-template-columns: 1fr;
+    gap: var(--space-3);
+    padding: var(--space-3) 0;
   }
-
-  .research-project--featured .research-project__image {
+  body.portfolio-theme .home-hero__image-wrapper {
     order: -1;
   }
-}
-
-
-/* --------------------------------------------------------------------------
-   22. Accessibility: visible keyboard focus
-   -------------------------------------------------------------------------- */
-
-.site-shell a:focus-visible,
-.site-content button:focus-visible,
-.site-content [tabindex]:focus-visible {
-  outline: 3px solid var(--refresh-accent);
-  outline-offset: 2px;
-}
-
-
-/* --------------------------------------------------------------------------
-   23. Project image containers (contain mode for diagrams)
-   -------------------------------------------------------------------------- */
-
-.project-card__image--contain {
-  object-fit: contain;
-  padding: var(--space-2);
-  background: var(--refresh-surface);
+  body.portfolio-theme .home-hero__image {
+    max-width: 280px;
+  }
+  body.portfolio-theme .project-grid {
+    grid-template-columns: 1fr;
+  }
+  body.portfolio-theme .status-strip {
+    grid-template-columns: 1fr;
+  }
+  body.portfolio-theme .button-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  body.portfolio-theme .site-button {
+    width: 100%;
+    text-align: center;
+  }
 }

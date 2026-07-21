@@ -142,7 +142,9 @@ Hard limits:
 
 ## Design rules
 
-The visual concept is **technical editorial portfolio**.
+The visual concept is **dark technical editorial portfolio**.
+
+The site uses a fixed dark theme based on deep blue-charcoal surfaces, not pure black. Pages using `layout: portfolio-page` are styled dark via the `body.portfolio-theme` class. Legacy pages still using inherited layouts remain visually unchanged until migrated.
 
 Required qualities:
 
@@ -152,13 +154,28 @@ Required qualities:
 - scientific;
 - slightly playful;
 - readable on mobile;
-- no visual gimmicks.
+- no visual gimmicks;
+- fixed dark theme (no toggle).
+
+Dark theme rules:
+
+- use deep blue-charcoal backgrounds (`#0b1117`), never pure `#000000`;
+- use layered dark surfaces with restrained borders for cards and elevated elements;
+- maintain WCAG AA contrast at all times;
+- use teal (`#55c2c3`) as the principal interactive accent;
+- use warm coral (`#ef8065`) only for rare emphasis;
+- avoid neon-on-black “hacker” styling;
+- avoid glowing borders or box-shadow halos;
+- avoid large gradients;
+- avoid glassmorphism;
+- avoid excessive shadows;
+- do not add a light/dark theme toggle;
+- the theme is fixed dark for all redesigned pages.
 
 Avoid:
 
-- full-page dark backgrounds;
 - neon-on-black “hacker” styling;
-- glassmorphism everywhere;
+- glassmorphism;
 - large gradient blobs;
 - animated stars or particles;
 - typewriter effects;

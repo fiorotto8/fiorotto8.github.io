@@ -13,12 +13,15 @@ The strategy is intentionally separated from the implementation. The human decis
 
 ## Core decision
 
-The new site should be a **modern technical portfolio with a controlled amount of humour**.
+The new site should be a **modern dark technical portfolio with a controlled amount of humour**.
+
+"Dark" means deep blue-charcoal editorial styling — scientific, restrained, and high-contrast. It does not mean neon, terminal, or cyberpunk aesthetics.
 
 It must not become:
 
 - a sterile institutional profile;
 - a startup landing page full of slogans;
+- a hacker terminal or neon-on-black "cyberpunk" aesthetic;
 - a complete rewrite in React, Astro, Next.js, or another framework;
 - an AI-generated collection of metaphors;
 - a visually noisy page with gradients, animated particles, typewriter text, or excessive motion.

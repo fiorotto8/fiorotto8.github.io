@@ -69,15 +69,17 @@ Need:
 
 ### Visual concept
 
-**Technical editorial portfolio**
+**Dark technical editorial portfolio**
 
 Reference qualities, not copied websites:
 
 - scientific instrument documentation;
-- clean research magazines;
-- modern laboratory websites;
+- clean research magazines on dark backgrounds;
+- modern laboratory websites with deep charcoal surfaces;
 - concise design portfolios;
 - strong use of photography and whitespace.
+
+The site uses a fixed dark theme based on deep blue-charcoal surfaces, not pure black. No theme toggle is implemented.
 
 ## 4. Information architecture
 
@@ -317,26 +319,38 @@ No sidebar.
 Use these as the starting palette:
 
 ```scss
-$refresh-bg: #f6f8fa;
-$refresh-surface: #ffffff;
-$refresh-text: #17212b;
-$refresh-muted: #5f6b76;
-$refresh-border: #dce3e8;
-$refresh-accent: #007b87;
-$refresh-accent-dark: #005e68;
-$refresh-warm: #d85b42;
-$refresh-dark: #10212b;
-$refresh-dark-text: #f4f7f8;
+body.portfolio-theme {
+  --refresh-bg: #0b1117;
+  --refresh-surface: #121b24;
+  --refresh-surface-raised: #18232e;
+  --refresh-surface-soft: #0f1820;
+
+  --refresh-text: #edf3f6;
+  --refresh-muted: #a6b2bd;
+  --refresh-subtle: #7f8d98;
+
+  --refresh-border: #293743;
+  --refresh-border-strong: #3a4b59;
+
+  --refresh-accent: #55c2c3;
+  --refresh-accent-hover: #79d4d3;
+  --refresh-accent-dark: #248f96;
+
+  --refresh-warm: #ef8065;
+  --refresh-dark: #071015;
+  --refresh-dark-text: #f7fafb;
+}
 ```
 
 Rules:
 
-- teal is the principal interactive accent;
-- warm coral is used rarely for labels or small visual emphasis;
+- teal (`#55c2c3`) is the principal interactive accent;
+- warm coral (`#ef8065`) is used rarely for labels or small visual emphasis;
 - do not use both accent colours in every component;
-- body background is light;
-- dark colour may be used for a compact footer or status area;
-- links must remain clearly identifiable.
+- page background is deep blue-charcoal (`#0b1117`), never pure black;
+- cards and content surfaces use layered dark surfaces (`--refresh-surface`, `--refresh-surface-raised`);
+- status strips, footer, or focused areas may use `--refresh-dark`;
+- links must remain clearly identifiable using underline or border treatment, not colour alone.
 
 ### Typography
 
@@ -419,16 +433,17 @@ Use borders more often than shadows.
 
 Primary button:
 
-- accent background;
-- white text;
+- teal accent background;
+- dark readable text (sufficiently contrasting);
 - medium radius;
 - strong focus ring.
 
 Secondary button:
 
-- transparent or white;
-- border;
-- dark text.
+- dark transparent or surface background;
+- visible border;
+- light text;
+- clear hover state.
 
 Do not use pill-shaped buttons for every control.
 
@@ -436,10 +451,10 @@ Do not use pill-shaped buttons for every control.
 
 Project cards should:
 
-- have a white background;
-- use a 1 px border;
+- use the dark raised surface (`--refresh-surface-raised`) background;
+- use a 1 px border (`--refresh-border`);
 - use 14–18 px radius;
-- avoid heavy shadows;
+- avoid heavy shadows and neon glow;
 - align content consistently;
 - keep images at a stable aspect ratio;
 - lift subtly on hover only when motion is permitted.
@@ -450,7 +465,8 @@ Project cards should:
 - Project card images: approximately 16:10 or 3:2.
 - Avoid forced square crops for all scientific images.
 - Use `object-fit: cover` for photographs.
-- Use `object-fit: contain` on white or neutral backgrounds for diagrams.
+- Use `object-fit: contain` on dark neutral backgrounds for diagrams.
+- Do not apply `filter: invert()` to any image.
 - Captions should normally be factual.
 - One or two playful captions may remain site-wide per page according to the humour budget.
 
