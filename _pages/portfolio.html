@@ -1,153 +1,175 @@
 ---
-layout: archive
+layout: portfolio-page
 title: "Research"
 permalink: /research/
-author_profile: true
+excerpt: "Research on gaseous detectors, optical TPCs, directional dark matter, X-ray polarimetry, precision timing, and low-energy neutrino detection."
+author_profile: false
 ---
 
 {% include base_path %}
-{% assign cache_bust = site.time | date: '%s' %}
 
-<p>
-My research sits in the slightly noisy intersection between detector hardware,
-simulation, project management, and operations. The common thread is rare-event
-instrumentation: building detectors that are stable, useful, scalable, and only
-occasionally interested in drama.
-</p>
+<h1 class="section-heading">Research</h1>
+<p>My research is centred on gaseous-detector instrumentation, especially Micro-Pattern Gaseous Detectors and optical time projection chambers. I work across detector design, simulation, construction, commissioning, operation, and data analysis, with a focus on extracting directional or timing information from low-energy and rare signals.</p>
 
-<section class="research-activity">
-  <h2>CYGNO04: building an ERC-funded dark matter detector</h2>
-  <div class="research-gallery">
-    <figure>
-      <img src="{{ base_path }}/images/research/cygno/LIME-decommissioning.jpg?v={{ cache_bust }}" alt="LIME detector decommissioning work for CYGNO">
-      <figcaption>LIME decommissioning: a detector can retire, but first it must explain what it learned.</figcaption>
-    </figure>
-    <figure>
-      <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.jpeg?v={{ cache_bust }}" alt="CYGNO04 cleanroom detector work">
-      <figcaption>CYGNO04 in cleanroom mode: radiopurity, patience, and many small things behaving at once.</figcaption>
-    </figure>
-  </div>
-  <p>
-    CYGNO is my current center of gravity: an ERC-funded program developing
-    optical-readout gaseous TPCs for directional Dark Matter searches. I am the
-    technical coordinator and project manager of CYGNO04, a 400 liter, EUR 1M
-    detector that I am managing from design through procurement, assembly,
-    installation, and commissioning. So yes, the detector has a budget, a
-    schedule, and a personality.
-  </p>
-  <ul>
-    <li>Technical coordination and project management for the CYGNO04 demonstrator.</li>
-    <li>Optical and electronic readout strategy, light-yield studies, and saturation mitigation.</li>
-    <li>Gas-mixture development, negative-ion-drift R&amp;D, and future large-volume concepts.</li>
-    <li>Geant4 background studies, detector-response modelling, timelines, action tracking, and the larger CYGNUS path.</li>
-  </ul>
+<!-- ==========================================================================
+     CURRENT RESEARCH
+     ========================================================================== -->
+<section id="current-research-section">
+  <h2 class="section-heading">Current research</h2>
+
+  <!-- CYGNO04 — Featured project -->
+  <article class="research-project research-project--featured" id="cygno04">
+    <div class="research-project__body">
+      <span class="status-label">Current &middot; Technical coordination and commissioning</span>
+      <h3 class="project-card__title">CYGNO04</h3>
+      <p class="research-project__objective">CYGNO04 is a 400 L radiopure optical TPC designed to demonstrate directional dark-matter detection at LNGS.</p>
+      <p class="research-project__role-title">My role</p>
+      <p class="research-project__role-text">I coordinate the technical development of the detector, including subsystem interfaces, assembly, installation planning, commissioning, operations, and collaboration-wide action tracking.</p>
+      <p class="research-project__role-title">Current focus</p>
+      <ul class="research-project__bullets">
+        <li>detector integration and commissioning;</li>
+        <li>optical and electronic readout;</li>
+        <li>gas, high voltage, services, shielding, and background control.</li>
+      </ul>
+      <ul class="project-tags">
+        <li class="project-tag">Optical TPC</li>
+        <li class="project-tag">Directional dark matter</li>
+        <li class="project-tag">Detector integration</li>
+      </ul>
+    </div>
+    <div class="research-project__image-wrapper">
+      <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.jpeg"
+           alt="CYGNO04 detector integration in the clean room at LNGS"
+           class="research-project__image"
+           loading="lazy"
+           decoding="async">
+      <figcaption class="research-project__caption">Clean-room work: where one loose fibre can become the main character.</figcaption>
+    </div>
+  </article>
+
+  <!-- Optical TPCs for X-ray polarimetry -->
+  <article class="research-project" id="xray-polarimetry">
+    <span class="status-label">Current &middot; Detector development and reconstruction</span>
+    <h3 class="project-card__title">Optical TPCs for X-ray polarimetry</h3>
+    <p class="research-project__objective">This programme adapts large-area optical triple-GEM TPCs to reconstruct photoelectron tracks and measure X-ray polarisation in the 10&ndash;60 keV range.</p>
+    <div class="research-project__image-wrapper--standard">
+      <img src="{{ base_path }}/images/research/xray-polarimetry/poalrimetry-test.jpg.png"
+           alt="Laboratory test of the optical TPC for X-ray polarimetry showing photoelectron track reconstruction"
+           class="research-project__image research-project__image--contain"
+           loading="lazy"
+           decoding="async">
+    </div>
+    <p class="research-project__role-title">My role</p>
+    <p class="research-project__role-text">I develop and test the detector, study light and charge response, simulate its performance, and work on track reconstruction and modulation measurements.</p>
+    <p class="research-project__role-title">Current focus</p>
+    <ul class="research-project__bullets">
+      <li>low-energy photoelectron imaging;</li>
+      <li>detector calibration and data&ndash;simulation comparison;</li>
+      <li>wide-field hard X-ray polarimeter concepts.</li>
+    </ul>
+    <ul class="project-tags">
+      <li class="project-tag">Triple-GEM</li>
+      <li class="project-tag">Polarimetry</li>
+      <li class="project-tag">Track reconstruction</li>
+    </ul>
+  </article>
+
+  <!-- Neutrinos, CEvNS, and space instrumentation -->
+  <article class="research-project" id="new-rd">
+    <span class="status-label">Developing concepts</span>
+    <h3 class="project-card__title">Neutrinos, CEvNS, and space instrumentation</h3>
+    <p class="research-project__objective">I investigate detector concepts in which low-energy tracking, timing, or directional information can improve sensitivity to neutrino and astroparticle signals.</p>
+    <div class="research-project__image-wrapper--standard">
+      <img src="{{ base_path }}/images/research/R&amp;D/EXPO.png"
+           alt="EXPO satellite concept diagram for in-orbit background simulation studies"
+           class="research-project__image research-project__image--contain"
+           loading="lazy"
+           decoding="async">
+    </div>
+    <p class="research-project__role-title">My role</p>
+    <p class="research-project__role-text">I contribute detector modelling, response simulation, sensitivity studies, and space-environment background simulations.</p>
+    <p class="research-project__role-title">What I work on</p>
+    <ul class="research-project__bullets">
+      <li>directional solar-neutrino studies;</li>
+      <li>high-pressure TPC concepts for CEvNS;</li>
+      <li>EXPO instrument and orbital-background simulations.</li>
+    </ul>
+    <ul class="project-tags">
+      <li class="project-tag">Neutrinos</li>
+      <li class="project-tag">CEvNS</li>
+      <li class="project-tag">Space environment</li>
+    </ul>
+  </article>
 </section>
 
-<section class="research-activity">
-  <h2>Optical TPCs for X-ray polarimetry</h2>
-  <div class="research-gallery">
-    <figure>
-      <img src="{{ base_path }}/images/research/xray-polarimetry/poalrimetry-test.jpg.png?v={{ cache_bust }}" alt="Laboratory X-ray polarimetry detector test">
-      <figcaption>Polarimetry tests: small tracks, big expectations, absolutely no tolerance for lazy reconstruction.</figcaption>
-    </figure>
-    <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/xray-polarimetry/polarimetry-schetck.png?v={{ cache_bust }}" alt="X-ray polarimetry reconstruction sketch">
-      <figcaption>From photoelectron track to polarization angle: a tiny detective story with pixels.</figcaption>
-    </figure>
-  </div>
-  <p>
-    X-ray polarimetry is a research line on its own. I adapt optical-readout
-    triple-GEM TPC technology to reconstruct photoelectron tracks and extract
-    polarization information in an energy range where the tracks are small,
-    fragile, and not especially cooperative. The current activity is supported
-    by the PRIN-funded HypeX effort, but the detector idea is broader than that
-    project label.
-  </p>
-  <ul>
-    <li>Large-area triple-GEM optical TPC development and laboratory testing.</li>
-    <li>Photoelectron-track reconstruction and modulation-factor studies.</li>
-    <li>Detector concepts for polarimetric sensitivity around the 10-60 keV range.</li>
-    <li>Simulation, calibration, and data-MC sanity checks for optical polarimetric response.</li>
-  </ul>
+<!-- ==========================================================================
+     PREVIOUS PROJECTS
+     ========================================================================== -->
+<section id="previous-projects-section">
+  <h2 class="section-heading">Previous projects</h2>
+  <p>Earlier work includes precision-timing detectors and the development and operation of large-area GEM systems for CMS.</p>
+
+  <!-- PICOSEC timing -->
+  <article class="research-project research-project--previous" id="picosec">
+    <span class="status-label">Previous &middot; R&amp;D coordination</span>
+    <h3 class="project-card__title">PICOSEC Micromegas</h3>
+    <p class="research-project__objective">PICOSEC Micromegas combines Cherenkov light and gaseous amplification to provide precise timing for minimum-ionising particles.</p>
+    <div class="research-project__image-wrapper--standard">
+      <img src="{{ base_path }}/images/research/picosec/picosec-testbeam.png"
+           alt="PICOSEC Micromegas detector test-beam activity showing timing measurement setup"
+           class="research-project__image"
+           loading="lazy"
+           decoding="async">
+    </div>
+    <p class="research-project__role-title">My role</p>
+    <p class="research-project__role-text">I coordinated detector R&amp;D for muon-collider applications, connecting prototype development, materials, gases, test beams, and beam-induced-background simulations.</p>
+    <p class="research-project__role-title">What I worked on</p>
+    <ul class="research-project__bullets">
+      <li>larger and more robust prototypes;</li>
+      <li>photocathode and radiator studies;</li>
+      <li>timing-based background rejection.</li>
+    </ul>
+    <p class="project-card__text">Picoseconds are small; the test-beam preparation is not.</p>
+    <ul class="project-tags">
+      <li class="project-tag">PICOSEC</li>
+      <li class="project-tag">Precision timing</li>
+      <li class="project-tag">Muon collider</li>
+    </ul>
+  </article>
+
+  <!-- CMS GEM detectors -->
+  <article class="research-project research-project--previous" id="cms-gem">
+    <span class="status-label">Previous &middot; Development, commissioning, and operations</span>
+    <h3 class="project-card__title">CMS GEM detectors</h3>
+    <p class="research-project__objective">Large-area triple-GEM detectors extend the CMS muon system into high-rate forward regions.</p>
+    <div class="research-project__image-wrapper--standard">
+      <img src="{{ base_path }}/images/research/cms-gem/magnet-test.jpg"
+           alt="CMS GEM detector test in a magnetic field environment"
+           class="research-project__image"
+           loading="lazy"
+           decoding="async">
+    </div>
+    <p class="research-project__role-title">My role</p>
+    <p class="research-project__role-text">I worked from detector R&amp;D and qualification through commissioning and Run 3 operation, including gas-system responsibility and detector performance studies.</p>
+    <p class="research-project__role-title">What I worked on</p>
+    <ul class="research-project__bullets">
+      <li>ageing, discharge, rate, and magnetic-field studies;</li>
+      <li>quality control and test beams;</li>
+      <li>gas monitoring, commissioning, shifts, and operational tools.</li>
+    </ul>
+    <ul class="project-tags">
+      <li class="project-tag">CMS</li>
+      <li class="project-tag">Triple-GEM</li>
+      <li class="project-tag">Muon spectrometer</li>
+    </ul>
+  </article>
 </section>
 
-<section class="research-activity">
-  <h2>PICOSEC timing for future muon colliders</h2>
-  <div class="research-gallery">
-    <figure>
-      <img src="{{ base_path }}/images/research/picosec/picosec-testbeam.png?v={{ cache_bust }}" alt="PICOSEC detector test-beam activity">
-      <figcaption>Test beam mode: the detector gets nervous, the timing gets sharp, everyone pretends this is normal.</figcaption>
-    </figure>
-    <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/picosec/picosec-timeresolution.png?v={{ cache_bust }}" alt="PICOSEC timing resolution result">
-      <figcaption>Timing resolution: where picoseconds become a personality trait.</figcaption>
-    </figure>
-  </div>
-  <p>
-    For Muon Collider detector studies, I coordinated the PICOSEC Micromegas
-    R&amp;D line. The challenge is to move toward larger, robust detector concepts
-    while preserving sub-100 ps timing performance in environments where
-    backgrounds arrive with theatrical confidence.
-  </p>
-  <ul>
-    <li>Prototype development from small devices toward larger-area concepts.</li>
-    <li>Photocathode, Cherenkov radiator, gas-mixture, and rate-capability studies.</li>
-    <li>Beam-induced-background simulation and timing-based rejection strategies.</li>
-    <li>R&amp;D coordination across hardware choices, test-beam planning, simulation needs, and the eternal spreadsheet.</li>
-  </ul>
-</section>
-
-<section class="research-activity">
-  <h2>CMS GEM detectors, from R&amp;D to operations</h2>
-  <div class="research-gallery">
-    <figure>
-      <img src="{{ base_path }}/images/research/cms-gem/gif++-test1.jpg?v={{ cache_bust }}" alt="CMS GEM detector test at GIF++">
-      <figcaption>GIF++ tests: radiation, gas, chambers, and the comforting smell of a checklist doing its job.</figcaption>
-    </figure>
-    <figure>
-      <img src="{{ base_path }}/images/research/cms-gem/magnet-test.jpg?v={{ cache_bust }}" alt="CMS GEM detector magnetic-field test">
-      <figcaption>Magnetic-field tests: asking a detector to stay elegant while the universe becomes less convenient.</figcaption>
-    </figure>
-  </div>
-  <p>
-    My CMS GEM work focused on triple-GEM detectors for the CMS muon system:
-    R&amp;D, quality control, commissioning, gas-system coordination, and operation
-    in real LHC conditions. This is where detector elegance meets industrial
-    reality and both are asked to be stable by Monday.
-  </p>
-  <ul>
-    <li>Aging, discharge, rate-capability, and magnetic-field stability studies.</li>
-    <li>Gas-system monitoring and L3 responsibility within the CMS GEM structure.</li>
-    <li>Test beams, commissioning, Detector-On-Call shifts, DCS shifts, and data-quality tools.</li>
-    <li>Operational memory, safety interfaces, service coordination, and the noble aim of making complex systems look boring.</li>
-  </ul>
-</section>
-
-<section class="research-activity">
-  <h2>New R&amp;D: neutrinos, space, and CEvNS</h2>
-  <div class="research-gallery research-gallery--three">
-    <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/R%26D/superK-tank.png?v={{ cache_bust }}" alt="Super-Kamiokande detector tank">
-      <figcaption>Super-Kamiokande: directional solar neutrinos, where the Sun leaves a very delicate arrow.</figcaption>
-    </figure>
-    <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/R%26D/EXPO.png?v={{ cache_bust }}" alt="EXPO satellite concept">
-      <figcaption>EXPO: instrument-team work and space-environment simulation, because orbit is not a gentle test bench.</figcaption>
-    </figure>
-    <figure class="figure-contain">
-      <img src="{{ base_path }}/images/research/R%26D/CEvNS.png?v={{ cache_bust }}" alt="High-pressure CF4 TPC concept for CEvNS detection">
-      <figcaption>CEvNS in high-pressure CF4: tiny nuclear recoils, large pressure, reasonable ambition.</figcaption>
-    </figure>
-  </div>
-  <p>
-    I also keep a small R&amp;D corner for ideas that are young, promising, and
-    only slightly feral. The line connects detector simulation, astroparticle
-    instrumentation, and new ways of squeezing directional information out of
-    difficult signals.
-  </p>
-  <ul>
-    <li>Directional solar-neutrino studies with Super-Kamiokande.</li>
-    <li>EXPO satellite project: instrument-team member and head of space-environment simulation.</li>
-    <li>Novel CEvNS detection concepts using high-pressure CF4 TPCs.</li>
-  </ul>
+<!-- ==========================================================================
+     CONTACT / COLLABORATION
+     ========================================================================== -->
+<section id="collaborate" class="contact-block">
+  <h2 class="section-heading">Collaboration</h2>
+  <p>If you are working on gaseous detectors, optical TPCs, or directional instrumentation and would like to discuss a collaboration, contact me by email.</p>
+  <a href="mailto:{{ site.author.email }}" class="site-button site-button--primary">Get in touch</a>
 </section>
