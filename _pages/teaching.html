@@ -1,62 +1,77 @@
 ---
-layout: archive
+layout: portfolio-page
 title: "Teaching & Outreach"
 permalink: /teaching/
-author_profile: true
+excerpt: "Teaching, student supervision, detector schools, public outreach, and scientific service."
+author_profile: false
 ---
 
-{% include base_path %}
-{% assign cache_bust = site.time | date: '%s' %}
+<h1>Teaching &amp; Outreach</h1>
 
 <p>
-Teaching, supervision, school laboratories, public seminars, visits, and other
-ways of persuading physics to leave the detector hall and speak human.
+I supervise students, teach experimental detector laboratories, contribute to
+international schools, and present particle and astroparticle physics to specialist
+and public audiences.
 </p>
 
-<div class="teaching-gallery">
-  <figure>
-    <img src="{{ base_path }}/images/teaching/DRD1-school.png?v={{ cache_bust }}" alt="DRD1 detector school teaching activity">
-    <figcaption>Detector school mode: first explain the avalanche, then hope the setup also listened.</figcaption>
+<section class="teaching-gallery" aria-label="Teaching photographs">
+  <figure class="teaching-gallery__item">
+    <img src="{{ page.url }}../images/teaching/DRD1-school.png"
+         alt="Hands-on gaseous-detector teaching at an international detector school, showing students working with a benchtop detector setup"
+         loading="lazy"
+         decoding="async">
+    <figcaption class="teaching-gallery__caption">
+      First explain the avalanche, then hope the setup also listened.
+    </figcaption>
   </figure>
-  <figure>
-    <img src="{{ base_path }}/images/teaching/public-talk.png?v={{ cache_bust }}" alt="Public outreach talk">
-    <figcaption>Public talks: translating detector dialect into human language, with only moderate turbulence.</figcaption>
+  <figure class="teaching-gallery__item">
+    <img src="{{ page.url }}../images/teaching/public-talk.png"
+         alt="Public seminar on particle and astroparticle detectors, showing a presentation slide with detector diagrams projected behind the speaker"
+         loading="lazy"
+         decoding="async">
+    <figcaption class="teaching-gallery__caption">
+      Public seminar on particle and astroparticle detectors.
+    </figcaption>
   </figure>
-</div>
-
-<section class="teaching-activity">
-  <h2>Student Supervision</h2>
-  <p>
-    Co-supervisor of 3 GSSI PhD students, supervisor of Bachelor/Master students at
-    Pavia, and supervisor of CERN Summer Student and Short-Term Internship projects.
-    The style: understand the physics, respect the hardware, interrogate the plot.
-  </p>
 </section>
 
-<section class="teaching-activity">
-  <h2>Laboratory Teaching</h2>
-  <p>
-    Lecturer for the GSSI PhD course "Laboratory of Low-Energy Radiation
-    Measurement" and tutor for hands-on detector schools at LNGS and CERN,
-    including DRD1 and RD51 activities.
-  </p>
-</section>
+<section class="teaching-cards" aria-label="Teaching activities">
 
-<section class="teaching-activity">
-  <h2>Outreach</h2>
-  <p>
-    INFN LNGS guide, former CMS guide, CYGNO outreach/social-media coordinator,
-    public seminar speaker, European Researchers Night contributor, and occasional
-    translator between particle physics and normal human conversation.
-  </p>
-</section>
+  <article class="teaching-card">
+    <h2>Student supervision</h2>
+    <p>
+      Co-supervisor of GSSI PhD students and supervisor or co-supervisor of Bachelor,
+      Master, CERN Summer Student, and short-term internship projects.
+    </p>
+    <p class="teaching-card__support">
+      My supervision focuses on connecting the physics question to a reproducible analysis
+      or a detector that can actually be operated.
+    </p>
+  </article>
 
-<section class="teaching-activity">
-  <h2>Scientific Service</h2>
-  <p>
-    Organizer and laboratory manager for detector schools and collaboration
-    meetings, including CYGNO, DRD1, RD51, Gran Sasso Hands-on PhD Summer School,
-    and Frontiers in X-ray Polarimetry Academy. Also referee for JINST and EPJ
-    Techniques and Instrumentation.
-  </p>
+  <article class="teaching-card">
+    <h2>Laboratory teaching</h2>
+    <p>
+      Lecturer for the GSSI PhD course Laboratory of Low-Energy Radiation Measurement
+      and tutor for hands-on detector schools at LNGS and CERN, including DRD1 and RD51 activities.
+    </p>
+  </article>
+
+  <article class="teaching-card">
+    <h2>Outreach</h2>
+    <p>
+      INFN LNGS guide, former CMS guide, public-seminar speaker, European Researchers' Night
+      contributor, and coordinator of CYGNO outreach and social-media activities.
+    </p>
+  </article>
+
+  <article class="teaching-card">
+    <h2>Scientific service</h2>
+    <p>
+      Organiser and laboratory manager for detector schools and collaboration meetings,
+      including CYGNO, DRD1, RD51, the Gran Sasso Hands-on PhD Summer School, and
+      the Frontiers in X-ray Polarimetry Academy. Referee for JINST and EPJ Techniques and Instrumentation.
+    </p>
+  </article>
+
 </section>

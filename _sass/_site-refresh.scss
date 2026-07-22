@@ -1120,6 +1120,134 @@ body.portfolio-theme .talk-item__event {
 
 
 /* ==========================================================================
+   TEACHING PAGE — Image gallery
+   ========================================================================== */
+
+body.portfolio-theme .teaching-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+body.portfolio-theme .teaching-gallery__item {
+  background: var(--refresh-surface-raised);
+  border: 1px solid var(--refresh-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin: 0;
+}
+
+body.portfolio-theme .teaching-gallery__item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: var(--refresh-surface-soft);
+}
+
+body.portfolio-theme .teaching-gallery__caption {
+  font-size: var(--text-xs);
+  color: var(--refresh-subtle);
+  font-style: italic;
+  padding: var(--space-1) var(--space-2);
+  margin: 0;
+  background: var(--refresh-surface-raised);
+}
+
+
+/* ==========================================================================
+   TEACHING PAGE — Activity cards
+   ========================================================================== */
+
+body.portfolio-theme .teaching-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+body.portfolio-theme .teaching-card {
+  background: var(--refresh-surface-raised);
+  border: 1px solid var(--refresh-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+body.portfolio-theme .teaching-card > h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--refresh-text);
+  margin: 0 0 var(--space-1) 0;
+}
+
+body.portfolio-theme .teaching-card > p {
+  font-size: var(--text-base);
+  color: var(--refresh-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+body.portfolio-theme .teaching-card__support {
+  color: var(--refresh-text) !important;
+  font-style: italic;
+}
+
+
+/* ==========================================================================
+   CV PAGE — Action row
+   ========================================================================== */
+
+body.portfolio-theme .cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+
+/* ==========================================================================
+   CV PAGE — PDF viewer frame
+   ========================================================================== */
+
+body.portfolio-theme .cv-viewer {
+  background: var(--refresh-surface-raised);
+  border: 1px solid var(--refresh-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-bottom: var(--space-3);
+}
+
+body.portfolio-theme .cv-viewer object {
+  display: block;
+  width: 100%;
+  min-height: 820px;
+}
+
+
+/* ==========================================================================
+   CV PAGE — Mobile fallback
+   ========================================================================== */
+
+body.portfolio-theme .cv-mobile-fallback {
+  display: none;
+  background: var(--refresh-surface-raised);
+  border: 1px solid var(--refresh-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3);
+  text-align: center;
+}
+
+body.portfolio-theme .cv-mobile-fallback p {
+  font-size: var(--text-sm);
+  color: var(--refresh-muted);
+  margin: 0;
+}
+
+
+/* ==========================================================================
    RESPONSIVE BREAKPOINTS (extended)
    ========================================================================== */
 
@@ -1207,5 +1335,21 @@ body.portfolio-theme .talk-item__event {
   }
   body.portfolio-theme .talk-item__event {
     margin-left: 0;
+  }
+
+  /* Teaching responsive */
+  body.portfolio-theme .teaching-gallery {
+    grid-template-columns: 1fr;
+  }
+  body.portfolio-theme .teaching-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* CV responsive — hide embedded PDF viewer on mobile */
+  body.portfolio-theme .cv-viewer {
+    display: none;
+  }
+  body.portfolio-theme .cv-mobile-fallback {
+    display: block;
   }
 }

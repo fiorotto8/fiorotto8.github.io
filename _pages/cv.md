@@ -1,41 +1,36 @@
 ---
-layout: archive
-title: "CV"
+layout: portfolio-page
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+excerpt: "Curriculum vitae of Davide Fiorina, experimental particle and astroparticle physicist."
+author_profile: false
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<h1>Curriculum Vitae</h1>
 
-This is the complete CV. It is the formal document, so it behaves better than
-the rest of the website and wears a tie.
+<p>
+A complete record of my research experience, detector responsibilities,
+publications, talks, teaching, and scientific service.
+</p>
 
-[Download the full CV]({{ base_path }}/files/CV.pdf){: .btn}
+<div class="cv-actions">
+  <a class="site-button site-button--primary" href="/files/CV.pdf" download>Download CV</a>
+  <a class="site-button site-button--secondary" href="/files/CV.pdf" target="_blank" rel="noopener noreferrer">Open PDF in a new tab</a>
+</div>
 
-## Snapshot
+<div class="cv-viewer">
+  <object data="/files/CV.pdf" type="application/pdf" width="100%" height="820">
+    <p>Your browser does not display embedded PDFs. Use the download or open link above to access the full document.</p>
+  </object>
+</div>
 
-**Current role.** Postdoctoral researcher at the Gran Sasso Science Institute
-(GSSI) and Technical Coordinator, Site Manager, GLIMOS, and RAE of the CYGNO
-experiment at LNGS.
-
-**Main detector ecosystem.** Optical-readout gaseous TPCs, triple-GEM
-detectors, Micro-Pattern Gaseous Detectors, fast-timing PICOSEC Micromegas,
-and simulation/analysis pipelines for rare-event and high-energy physics
-instrumentation.
-
-**Recent responsibilities.** CYGNO04 construction and commissioning, CYGNUS
-optical-readout coordination, EXPO in-orbit background simulations, CYGNO
-Steering Committee, CYGNO Publication Committee, and previous CMS GEM gas
-system and test-beam coordination.
-
-**Education.** PhD in Physics of Fundamental Interactions, MSc in Nuclear
-Physics, and BSc in Physics from Universita degli Studi di Pavia.
-
-## Embedded CV
-
-<object data="{{ base_path }}/files/CV.pdf" type="application/pdf" width="100%" height="820">
-  <p>Your browser is not showing the embedded PDF. No tragedy, only a small
-  inconvenience: <a href="{{ base_path }}/files/CV.pdf">download the CV here</a>.</p>
-</object>
+<div class="cv-mobile-fallback">
+  <p>
+    The embedded viewer may be limited on mobile devices. Use the
+    <a href="/files/CV.pdf" download>download</a> or
+    <a href="/files/CV.pdf" target="_blank" rel="noopener noreferrer">open link</a>
+    for the full document.
+  </p>
+</div>
