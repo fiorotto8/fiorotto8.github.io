@@ -22,9 +22,11 @@ author_profile: false
     </div>
   </div>
   <div class="home-hero__image-wrapper">
-    <img src="{{ base_path }}/images/profile/PXL_20230623_153017470.jpg"
+    <img src="{{ base_path }}/images/profile/PXL_20230623_153017470.webp"
          alt="Davide Fiorina in a clean room working on detector assembly"
          class="home-hero__image"
+         width="1129"
+         height="1500"
          decoding="async">
   </div>
 </section>
@@ -54,9 +56,11 @@ author_profile: false
     <!-- CYGNO04 -->
     <article class="project-card">
       <div class="project-card__image-wrapper">
-        <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.jpeg"
+        <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.webp"
              alt="CYGNO04 detector integration in the clean room at LNGS"
              class="project-card__image"
+             width="1600"
+             height="1588"
              loading="lazy"
              decoding="async">
       </div>
@@ -75,9 +79,11 @@ author_profile: false
     <!-- X-ray polarimetry -->
     <article class="project-card">
       <div class="project-card__image-wrapper">
-        <img src="{{ base_path }}/images/research/xray-polarimetry/poalrimetry-test.jpg.png"
+        <img src="{{ base_path }}/images/research/xray-polarimetry/polarimetry-test.webp"
              alt="Laboratory test of the optical TPC for X-ray polarimetry"
              class="project-card__image project-card__image--contain"
+             width="984"
+             height="737"
              loading="lazy"
              decoding="async">
       </div>
@@ -99,6 +105,8 @@ author_profile: false
         <img src="{{ base_path }}/images/research/R&amp;D/EXPO.png"
              alt="EXPO satellite concept for in-orbit background simulation"
              class="project-card__image project-card__image--contain"
+             width="1169"
+             height="848"
              loading="lazy"
              decoding="async">
       </div>

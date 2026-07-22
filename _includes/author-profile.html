@@ -5,33 +5,12 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-  {% assign cache_bust = site.time | date: '%s' %}
-
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-      {% assign fallback_avatar_src = author.avatar %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-      {% assign fallback_avatar_src = author.avatar | prepend: "/images/" | prepend: base_path | append: "?v=" | append: cache_bust %}
+      <img src="{{ author.avatar | prepend: base_path }}" alt="{{ author.name }}">
     {% endif %}
-    <img src="{{ fallback_avatar_src }}" class="author__avatar js-random-profile-avatar" alt="{{ author.name }}" data-random-profile-avatar>
-    <script>
-      (function () {
-        var images = [
-          {% for image in site.static_files %}
-            {% if image.path contains '/images/profile/' %}
-              {% assign profile_relative_path = image.path | remove_first: '/images/profile/' %}
-              {% unless profile_relative_path contains '/' %}
-                {{ image.path | prepend: base_path | append: "?v=" | append: cache_bust | jsonify }},
-              {% endunless %}
-            {% endif %}
-          {% endfor %}
-        ];
-        var avatar = document.currentScript.parentElement.querySelector('[data-random-profile-avatar]');
-        if (avatar && images.length) {
-          avatar.src = images[Math.floor(Math.random() * images.length)];
-        }
-      }());
-    </script>
   </div>
 
   <div class="author__content">
@@ -48,7 +27,7 @@
       {% if author.employer %}
         <li>
           <a class="author__employer-link" href="https://maps.app.goo.gl/Z5qPP9Ywm2SzLgq39" target="_blank" rel="noopener">
-            <img class="author__employer-logo" src="{{ '/images/gssi-logo.png' | prepend: base_path }}?v={{ cache_bust }}" alt="GSSI">
+            <img class="author__employer-logo" src="{{ '/images/gssi-logo.png' | prepend: base_path }}" alt="GSSI">
             <span>{{ author.employer }}</span>
           </a>
         </li>

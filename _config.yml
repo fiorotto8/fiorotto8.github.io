@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Davide Fiorina"
 title_separator          : "-"
 name                     : &name "Davide Fiorina"
-description              : &description "Experimental particle and astroparticle physicist working on gaseous detectors, Dark Matter searches, X-ray polarimetry, and fast timing."
+description              : &description "Experimental particle and astroparticle physicist developing gaseous detectors and optical TPCs for rare-event searches, X-ray polarimetry, and precision timing."
 url                      : https://fiorotto8.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fiorotto8/fiorotto8.github.io"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Davide Fiorina"
-  avatar           : "profile.png"
-  bio              : "Experimental particle and astroparticle physicist. Gaseous detectors, Dark Matter, X-ray polarimetry, fast timing, and controlled hardware chaos."
+  avatar           : "images/profile/PXL_20230623_153017470.webp"
+  bio              : "Experimental particle and astroparticle physicist working on gaseous detectors, optical TPCs, directional dark matter, X-ray polarimetry, and precision timing."
   location         : "L' Aquila"
   employer         : Gran Sasso Science Institute (GSSI)
   pubmed           :
