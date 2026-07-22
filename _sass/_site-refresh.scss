@@ -821,6 +821,308 @@ body.portfolio-theme .greedy-nav button:focus-visible {
    RESPONSIVE BREAKPOINTS
    ========================================================================== */
 
+/* ==========================================================================
+   PUBLICATIONS PAGE — Metrics panel
+   ========================================================================== */
+
+body.portfolio-theme .pub-metrics {
+  margin-bottom: var(--space-4);
+}
+body.portfolio-theme .pub-metrics > h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--refresh-text);
+  margin-bottom: var(--space-2);
+}
+
+body.portfolio-theme .pub-metrics__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2) var(--space-3);
+}
+
+body.portfolio-theme .pub-metrics__card {
+  background: var(--refresh-surface-raised);
+  border: 1px solid var(--refresh-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.15em;
+}
+
+body.portfolio-theme .pub-metrics__value {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--refresh-accent);
+  line-height: 1.2;
+}
+
+body.portfolio-theme .pub-metrics__label {
+  font-size: var(--text-sm);
+  color: var(--refresh-muted);
+  line-height: 1.4;
+}
+
+body.portfolio-theme .pub-metrics__source {
+  font-size: var(--text-xs);
+  color: var(--refresh-subtle);
+  margin-top: var(--space-2);
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   PUBLICATIONS PAGE — External profile links row
+   ========================================================================== */
+
+body.portfolio-theme .pub-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+
+/* ==========================================================================
+   PUBLICATIONS PAGE — Publication list
+   ========================================================================== */
+
+body.portfolio-theme .pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.portfolio-theme .pub-entry {
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--refresh-border);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-2);
+}
+
+body.portfolio-theme .pub-entry:first-child {
+  padding-top: 0;
+  border-top: 1px solid var(--refresh-border);
+}
+
+body.portfolio-theme .pub-entry:last-child {
+  border-bottom: none;
+}
+
+body.portfolio-theme .pub-entry__year {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--refresh-subtle);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  flex-shrink: 0;
+  min-width: 4em;
+}
+
+body.portfolio-theme .pub-entry__title {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--refresh-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  line-height: 1.4;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+body.portfolio-theme .pub-entry__title:hover,
+body.portfolio-theme .pub-entry__title:focus {
+  color: var(--link-hover);
+}
+
+body.portfolio-theme .pub-entry__venue {
+  font-size: var(--text-sm);
+  color: var(--refresh-muted);
+  width: 100%;
+  margin-left: calc(4em + var(--space-2));
+}
+
+
+/* ==========================================================================
+   PUBLICATIONS PAGE — CV link section
+   ========================================================================== */
+
+body.portfolio-theme .pub-cv-link {
+  margin-top: var(--space-5);
+  text-align: center;
+}
+
+body.portfolio-theme .pub-cv-link p {
+  font-size: var(--text-base);
+  color: var(--refresh-muted);
+}
+
+
+/* ==========================================================================
+   TALKS PAGE — Featured talk cards
+   ========================================================================== */
+
+body.portfolio-theme .talks-featured {
+  margin-bottom: var(--space-5);
+}
+
+body.portfolio-theme .talks-featured > h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--refresh-text);
+  margin-bottom: var(--space-3);
+}
+
+body.portfolio-theme .talks-featured__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-2) var(--space-3);
+}
+
+body.portfolio-theme .talk-card {
+  background: var(--refresh-surface-raised);
+  border: 1px solid var(--refresh-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+body.portfolio-theme .talk-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--refresh-border-strong);
+  box-shadow: var(--shadow-soft);
+}
+
+body.portfolio-theme .talk-card__title {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--refresh-text);
+  margin: 0;
+}
+
+body.portfolio-theme .talk-card__event {
+  font-size: var(--text-xs);
+  color: var(--refresh-muted);
+  line-height: 1.4;
+  margin: 0;
+}
+
+body.portfolio-theme .talk-card__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin-top: auto;
+  padding-top: var(--space-1);
+}
+
+body.portfolio-theme .talk-card__year {
+  font-size: var(--text-xs);
+  color: var(--refresh-subtle);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+
+/* ==========================================================================
+   TALKS PAGE — Type labels (invited, plenary, parallel, poster)
+   ========================================================================== */
+
+body.portfolio-theme .talk-type {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  padding: 0.15em 0.5em;
+  border-radius: var(--radius-sm);
+  line-height: 1.5;
+}
+
+body.portfolio-theme .talk-type--invited {
+  color: var(--refresh-accent);
+  background: rgba(85, 194, 195, 0.1);
+  border: 1px solid rgba(85, 194, 195, 0.25);
+}
+
+body.portfolio-theme .talk-type--plenary {
+  color: var(--refresh-warm);
+  background: rgba(239, 128, 101, 0.1);
+  border: 1px solid rgba(239, 128, 101, 0.25);
+}
+
+body.portfolio-theme .talk-type--parallel {
+  color: var(--refresh-muted);
+  background: rgba(166, 178, 189, 0.08);
+  border: 1px solid var(--refresh-border);
+}
+
+
+/* ==========================================================================
+   TALKS PAGE — Chronological talk list & poster list
+   ========================================================================== */
+
+body.portfolio-theme .talk-list,
+body.portfolio-theme .poster-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.portfolio-theme .talk-item {
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--refresh-border);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-2);
+}
+
+body.portfolio-theme .talk-list .talk-item:first-child,
+body.portfolio-theme .poster-list .talk-item:first-child {
+  padding-top: 0;
+  border-top: 1px solid var(--refresh-border);
+}
+
+body.portfolio-theme .talk-list .talk-item:last-child,
+body.portfolio-theme .poster-list .talk-item:last-child {
+  border-bottom: none;
+}
+
+body.portfolio-theme .talk-item__year {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--refresh-subtle);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  flex-shrink: 0;
+  min-width: 4em;
+}
+
+body.portfolio-theme .talk-item__title {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--refresh-text);
+  line-height: 1.4;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+body.portfolio-theme .talk-item__event {
+  font-size: var(--text-sm);
+  color: var(--refresh-muted);
+  width: 100%;
+  margin-left: calc(4em + var(--space-2));
+}
+
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS (extended)
+   ========================================================================== */
+
 @media (max-width: 1099px) {
   body.portfolio-theme .project-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -834,6 +1136,9 @@ body.portfolio-theme .greedy-nav button:focus-visible {
   body.portfolio-theme .research-project--featured > .research-project__image-wrapper {
     order: -1;
     max-height: 320px;
+  }
+  body.portfolio-theme .talks-featured__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -878,5 +1183,29 @@ body.portfolio-theme .greedy-nav button:focus-visible {
   }
   body.portfolio-theme .research-project__image-wrapper--standard {
     margin: var(--space-2) 0;
+  }
+
+  /* Publications responsive */
+  body.portfolio-theme .pub-metrics__grid {
+    grid-template-columns: 1fr;
+  }
+  body.portfolio-theme .pub-entry {
+    flex-direction: column;
+    gap: 0.15em;
+  }
+  body.portfolio-theme .pub-entry__venue {
+    margin-left: 0;
+  }
+
+  /* Talks responsive */
+  body.portfolio-theme .talks-featured__grid {
+    grid-template-columns: 1fr;
+  }
+  body.portfolio-theme .talk-item {
+    flex-direction: column;
+    gap: 0.15em;
+  }
+  body.portfolio-theme .talk-item__event {
+    margin-left: 0;
   }
 }
