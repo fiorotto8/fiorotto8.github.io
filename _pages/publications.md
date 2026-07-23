@@ -8,10 +8,11 @@ author_profile: false
 
 <h1>Publications</h1>
 
-<p>
-A selected set of publications tracing my work across optical TPCs,
+<p class="page-intro">
+This page highlights selected publications across optical TPCs,
 gaseous-detector development, X-ray polarimetry, precision timing,
-and CMS GEM detectors.
+and CMS GEM detectors. For the complete record and current citation data,
+use my Scopus profile.
 </p>
 
 <section class="pub-metrics" aria-label="Publication metrics">
@@ -38,7 +39,7 @@ and CMS GEM detectors.
 <section class="pub-profiles" aria-label="External profiles">
   <a class="pub-profiles__link site-button site-button--secondary" href="{{ site.author.scopus }}" target="_blank" rel="noopener noreferrer">Scopus profile</a>
   <a class="pub-profiles__link site-button site-button--secondary" href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID profile</a>
-  <a class="pub-profiles__link site-button site-button--secondary" href="/cv/">Download CV</a>
+  <a class="pub-profiles__link site-button site-button--secondary" href="/files/CV.pdf" download>Download CV</a>
 </section>
 
 <section aria-label="Selected publications">
@@ -46,14 +47,14 @@ and CMS GEM detectors.
   <ul class="pub-list">
 
     <li class="pub-entry">
-      <span class="pub-entry__year">2026</span>
+      <span class="pub-entry__year">2025</span>
       <a class="pub-entry__title" href="https://arxiv.org/abs/2510.26239" target="_blank" rel="noopener noreferrer">A Large-Area Optical Time Projection Chamber for Hard X-ray Polarimetry with Directional Imaging of Low-Energy Electron Recoils</a>
       <span class="pub-entry__venue">arXiv preprint</span>
     </li>
 
     <li class="pub-entry">
       <span class="pub-entry__year">2026</span>
-      <a class="pub-entry__title" href="https://doi.org/10.1140/epjc/s10052-026-15318-7" target="_blank" rel="noopener noreferrer">Modeling the light response of an optically readout GEM-based TPC for the CYGNO experiment</a>
+      <a class="pub-entry__title" href="https://doi.org/10.1140/epjc/s10052-026-15318-7" target="_blank" rel="noopener noreferrer">Modeling the light response of an optically readout GEM based TPC for the CYGNO experiment</a>
       <span class="pub-entry__venue">The European Physical Journal C</span>
     </li>
 
@@ -65,7 +66,7 @@ and CMS GEM detectors.
 
     <li class="pub-entry">
       <span class="pub-entry__year">2025</span>
-      <a class="pub-entry__title" href="https://doi.org/10.1016/j.nima.2024.170127" target="_blank" rel="noopener noreferrer">Single-channel PICOSEC Micromegas detector with improved time resolution</a>
+      <a class="pub-entry__title" href="https://doi.org/10.1016/j.nima.2024.170127" target="_blank" rel="noopener noreferrer">Single channel PICOSEC Micromegas detector with improved time resolution</a>
       <span class="pub-entry__venue">Nuclear Instruments and Methods in Physics Research A</span>
     </li>
 
@@ -77,7 +78,7 @@ and CMS GEM detectors.
 
     <li class="pub-entry">
       <span class="pub-entry__year">2024</span>
-      <a class="pub-entry__title" href="https://dx.doi.org/10.1140/epjc/s10052-024-13471-5" target="_blank" rel="noopener noreferrer">Enhancing the light yield of He:CF4-based gaseous detector</a>
+      <a class="pub-entry__title" href="https://dx.doi.org/10.1140/epjc/s10052-024-13471-5" target="_blank" rel="noopener noreferrer">Enhancing the light yield of He:CF4 based gaseous detector</a>
       <span class="pub-entry__venue">The European Physical Journal C</span>
     </li>
 
@@ -112,7 +113,7 @@ and CMS GEM detectors.
     </li>
 
     <li class="pub-entry">
-      <span class="pub-entry__year">2021</span>
+      <span class="pub-entry__year">2022</span>
       <a class="pub-entry__title" href="https://doi.org/10.1016/j.nima.2022.166716" target="_blank" rel="noopener noreferrer">Quality control of mass-produced GEM detectors for the CMS GE1/1 muon upgrade</a>
       <span class="pub-entry__venue">Nuclear Instruments and Methods in Physics Research A</span>
     </li>
@@ -144,9 +145,10 @@ and CMS GEM detectors.
   </ul>
 </section>
 
-<section class="pub-cv-link">
+<aside class="pub-cv-link" aria-label="Publication record links">
   <p>
-    For a complete list of publications, see my
-    <a href="/cv/">curriculum vitae</a>.
+    For the complete publication record, see my
+    <a href="{{ site.author.scopus }}" target="_blank" rel="noopener noreferrer">Scopus profile</a>.
+    My <a href="/cv/">curriculum vitae</a> also includes a selected list.
   </p>
-</section>
+</aside>

@@ -13,6 +13,8 @@ layout: compress
 
   <body class="{% if page.layout == 'portfolio-page' %}portfolio-theme{% endif %}">
 
+    <a class="skip-link" href="{% if page.layout == 'portfolio-page' %}#main-content{% else %}#main{% endif %}">Skip to main content</a>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 

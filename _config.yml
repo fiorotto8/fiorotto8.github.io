@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 title                    : "Davide Fiorina"
 title_separator          : "-"
 name                     : &name "Davide Fiorina"
@@ -62,13 +62,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "social-card.png" # Open Graph/Twitter default site image
+og_image_alt             : "Davide Fiorina — experimental particle and astroparticle physicist"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Davide Fiorina"
+  links:
+    - "https://orcid.org/0000-0002-7104-257X"
+    - "https://www.scopus.com/authid/detail.uri?authorId=57218390600"
+    - "https://github.com/fiorotto8"
 
 
 # Analytics
@@ -81,9 +85,9 @@ analytics:
 # Site Author
 author:
   name             : "Davide Fiorina"
-  avatar           : "images/profile/PXL_20230623_153017470.webp"
+  avatar           : "/images/profile/PXL_20230623_153017470.webp"
   bio              : "Experimental particle and astroparticle physicist working on gaseous detectors, optical TPCs, directional dark matter, X-ray polarimetry, and precision timing."
-  location         : "L' Aquila"
+  location         : "L'Aquila"
   employer         : Gran Sasso Science Institute (GSSI)
   pubmed           :
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57218390600"
@@ -132,12 +136,14 @@ exclude:
   - CHANGELOG.md
   - Capfile
   - CONTRIBUTING.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
   - README.md
+  - PROJECT_OVERVIEW.md
   - Rakefile
   - _pages/archive-layout-with-content.md
   - _pages/category-archive.html
@@ -151,12 +157,30 @@ exclude:
   - _pages/terms.md
   - _pages/year-archive.html
   - assets/js/_main.js
+  - assets/js/_portfolio.js
   - assets/js/plugins
   - assets/js/vendor
   - bin
   - config
+  - docs
   - files/cv.tex
   - gulpfile.js
+  - "images/profile/*.jpg"
+  - "images/profile/*.JPG"
+  - "images/profile/*.jpeg"
+  - "images/research/cms-gem/*.jpg"
+  - "images/research/cygno/*.jpg"
+  - "images/research/cygno/*.jpeg"
+  - "images/research/picosec/*.png"
+  - "images/research/xray-polarimetry/*.jpg"
+  - "images/research/xray-polarimetry/*.png"
+  - "images/research/R&D/CEvNS.png"
+  - "images/research/R&D/superK-tank.png"
+  - "images/teaching/*.png"
+  - images/cygno-logo.jpg
+  - images/gssi-logo.png
+  - images/infn-logo.jpg
+  - images/unipv-logo.png
   - log
   - markdown_generator
   - node_modules
@@ -179,6 +203,9 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+sass:
+  style: compressed
 
 
 # Markdown Processing

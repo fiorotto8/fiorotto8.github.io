@@ -3,16 +3,22 @@
    ========================================================================== */
 
 $(document).ready(function(){
-   // Sticky footer
+  var isPortfolioTheme = $("body").hasClass("portfolio-theme");
+
+  // Sticky footer for legacy layouts
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
     },
     didResize = false;
 
-  bumpIt();
+  if (!isPortfolioTheme) {
+    bumpIt();
+  }
 
   $(window).resize(function() {
-    didResize = true;
+    if (!isPortfolioTheme) {
+      didResize = true;
+    }
   });
   setInterval(function() {
     if (didResize) {
@@ -27,7 +33,8 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
+    var $profileButton = $(".author__urls-wrapper button");
+    var show = $profileButton.length === 0 ? $(window).width() > 1024 : !$profileButton.is(":visible");
     // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
     // console.log("Window Width: " + windowWidth);
     // console.log("show: " + show);
@@ -42,6 +49,11 @@ $(document).ready(function(){
       Stickyfill.stop();
       $(".author__urls").hide();
     }
+
+    $profileButton
+      .removeClass("open")
+      .attr("aria-expanded", "false")
+      .attr("aria-label", "Show profile links");
   };
 
   stickySideBar();
@@ -55,10 +67,16 @@ $(document).ready(function(){
   $(".author__urls-wrapper button").on("click", function() {
     $(".author__urls").fadeToggle("fast", function() {});
     $(".author__urls-wrapper button").toggleClass("open");
+    var isOpen = $(".author__urls-wrapper button").hasClass("open");
+    $(".author__urls-wrapper button")
+      .attr("aria-expanded", isOpen ? "true" : "false")
+      .attr("aria-label", isOpen ? "Hide profile links" : "Show profile links");
   });
 
   // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    $("a[href^='#']:not([href='#'])").smoothScroll({offset: -20});
+  }
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

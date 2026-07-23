@@ -6,9 +6,11 @@ excerpt: "Teaching, student supervision, detector schools, public outreach, and 
 author_profile: false
 ---
 
+{% include base_path %}
+
 <h1>Teaching &amp; Outreach</h1>
 
-<p>
+<p class="page-intro">
 I supervise students, teach experimental detector laboratories, contribute to
 international schools, and present particle and astroparticle physics to specialist
 and public audiences.
@@ -16,19 +18,19 @@ and public audiences.
 
 <section class="teaching-gallery" aria-label="Teaching photographs">
   <figure class="teaching-gallery__item">
-    <img src="{{ page.url }}../images/teaching/DRD1-school.webp"
-         alt="Hands-on gaseous-detector teaching at an international detector school, showing students working with a benchtop detector setup"
+    <img src="{{ base_path }}/images/teaching/DRD1-school.webp"
+         alt="Detector-school participants and tutors gathered around a laptop and laboratory bench"
          width="764"
          height="576"
          loading="lazy"
          decoding="async">
     <figcaption class="teaching-gallery__caption">
-      First explain the avalanche, then hope the setup also listened.
+      Hands-on work during an international gaseous-detector school.
     </figcaption>
   </figure>
   <figure class="teaching-gallery__item">
-    <img src="{{ page.url }}../images/teaching/public-talk.webp"
-         alt="Public seminar on particle and astroparticle detectors, showing a presentation slide with detector diagrams projected behind the speaker"
+    <img src="{{ base_path }}/images/teaching/public-talk.webp"
+         alt="Audience attending a public seminar on particle and astroparticle detectors"
          width="554"
          height="386"
          loading="lazy"
@@ -44,8 +46,8 @@ and public audiences.
   <article class="teaching-card">
     <h2>Student supervision</h2>
     <p>
-      Co-supervisor of GSSI PhD students and supervisor or co-supervisor of Bachelor,
-      Master, CERN Summer Student, and short-term internship projects.
+      Co-supervisor of GSSI PhD students and supervisor or co-supervisor of bachelor's,
+      master's, CERN Summer Student, and short-term internship projects.
     </p>
     <p class="teaching-card__support">
       My supervision focuses on connecting the physics question to a reproducible analysis
@@ -78,4 +80,10 @@ and public audiences.
     </p>
   </article>
 
+</section>
+
+<section class="contact-block teaching-contact">
+  <h2 class="section-heading">Teaching and outreach enquiries</h2>
+  <p>For student projects, detector-school activities, or public seminars, contact me by email.</p>
+  <a href="mailto:{{ site.author.email }}" class="site-button site-button--primary">Email me</a>
 </section>

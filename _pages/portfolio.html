@@ -9,7 +9,7 @@ author_profile: false
 {% include base_path %}
 
 <h1 class="section-heading">Research</h1>
-<p>My research is centred on gaseous-detector instrumentation, especially Micro-Pattern Gaseous Detectors and optical time projection chambers. I work across detector design, simulation, construction, commissioning, operation, and data analysis, with a focus on extracting directional or timing information from low-energy and rare signals.</p>
+<p class="page-intro">My research is centred on gaseous-detector instrumentation, especially Micro-Pattern Gaseous Detectors and optical time projection chambers. I work across detector design, simulation, construction, commissioning, operation, and data analysis, with a focus on extracting directional or timing information from low-energy and rare signals.</p>
 
 <!-- ==========================================================================
      CURRENT RESEARCH
@@ -37,16 +37,19 @@ author_profile: false
         <li class="project-tag">Detector integration</li>
       </ul>
     </div>
-    <div class="research-project__image-wrapper">
-      <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom.webp"
+    <figure class="research-project__image-wrapper research-project__figure">
+      <img src="{{ base_path }}/images/research/cygno/cygno04-cleanroom-720.webp"
+           srcset="{{ base_path }}/images/research/cygno/cygno04-cleanroom-720.webp 720w,
+                   {{ base_path }}/images/research/cygno/cygno04-cleanroom.webp 1600w"
+           sizes="(max-width: 1099px) calc(100vw - 36px), 500px"
            alt="CYGNO04 detector integration in the clean room at LNGS"
            class="research-project__image"
-           width="1600"
-           height="1588"
+           width="720"
+           height="715"
            loading="lazy"
            decoding="async">
-      <figcaption class="research-project__caption">Clean-room work: where one loose fibre can become the main character.</figcaption>
-    </div>
+      <figcaption class="research-project__caption">CYGNO04 detector integration in the clean room at LNGS.</figcaption>
+    </figure>
   </article>
 
   <!-- Optical TPCs for X-ray polarimetry -->
@@ -55,11 +58,14 @@ author_profile: false
     <h3 class="project-card__title">Optical TPCs for X-ray polarimetry</h3>
     <p class="research-project__objective">This programme adapts large-area optical triple-GEM TPCs to reconstruct photoelectron tracks and measure X-ray polarisation in the 10&ndash;60 keV range.</p>
     <div class="research-project__image-wrapper--standard">
-      <img src="{{ base_path }}/images/research/xray-polarimetry/polarimetry-test.webp"
-           alt="Laboratory test of the optical TPC for X-ray polarimetry showing photoelectron track reconstruction"
+      <img src="{{ base_path }}/images/research/xray-polarimetry/polarimetry-test-720.webp"
+           srcset="{{ base_path }}/images/research/xray-polarimetry/polarimetry-test-720.webp 720w,
+                   {{ base_path }}/images/research/xray-polarimetry/polarimetry-test.webp 984w"
+           sizes="(max-width: 699px) calc(100vw - 68px), (max-width: 1099px) calc(100vw - 80px), 860px"
+           alt="Davide Fiorina working on the laboratory optical TPC used for X-ray polarimetry tests"
            class="research-project__image research-project__image--contain"
-           width="984"
-           height="737"
+           width="720"
+           height="539"
            loading="lazy"
            decoding="async">
     </div>
@@ -82,18 +88,30 @@ author_profile: false
   <article class="research-project" id="new-rd">
     <span class="status-label">Developing concepts</span>
     <h3 class="project-card__title">Neutrinos, CEvNS, and space instrumentation</h3>
-    <p class="research-project__objective">I investigate detector concepts in which low-energy tracking, timing, or directional information can improve sensitivity to neutrino and astroparticle signals.</p>
-    <div class="research-project__image-wrapper--standard">
-      <img src="{{ base_path }}/images/research/R&amp;D/EXPO.png"
-           alt="EXPO satellite concept diagram for in-orbit background simulation studies"
-           class="research-project__image research-project__image--contain"
-           width="1169"
-           height="848"
-           loading="lazy"
-           decoding="async">
-    </div>
+    <p class="research-project__objective">I develop detector concepts for directional solar neutrinos and CEvNS, and coordinate background simulations for the EXPO polarimetry mission proposal.</p>
+    <figure class="research-project__figure">
+      <a class="research-project__figure-media research-project__figure-media--contain"
+         href="{{ base_path }}/images/research/R&amp;D/EXPO.png"
+         target="_blank"
+         rel="noopener noreferrer">
+        <img src="{{ base_path }}/images/research/R&amp;D/EXPO-720.webp"
+             srcset="{{ base_path }}/images/research/R&amp;D/EXPO-720.webp 720w,
+                     {{ base_path }}/images/research/R&amp;D/EXPO.webp 1169w"
+             sizes="(max-width: 699px) calc(100vw - 68px), (max-width: 1099px) calc(100vw - 80px), 860px"
+             alt="Spacecraft architecture used for the EXPO polarimetry mission study; legacy XIPE component labels are visible"
+             class="research-project__image research-project__image--contain"
+             width="720"
+             height="522"
+             loading="lazy"
+             decoding="async">
+      </a>
+      <figcaption class="research-project__figure-caption">
+        EXPO spacecraft architecture study. The source diagram retains legacy XIPE component labels.
+        <a href="{{ base_path }}/images/research/R&amp;D/EXPO.png" target="_blank" rel="noopener noreferrer">View the full-size figure</a>.
+      </figcaption>
+    </figure>
     <p class="research-project__role-title">My role</p>
-    <p class="research-project__role-text">I contribute detector modelling, response simulation, sensitivity studies, and space-environment background simulations.</p>
+    <p class="research-project__role-text">My work covers detector response and sensitivity studies, together with Geant4 modelling of the orbital background expected for EXPO.</p>
     <p class="research-project__role-title">What I work on</p>
     <ul class="research-project__bullets">
       <li>directional solar-neutrino studies;</li>
@@ -121,11 +139,14 @@ author_profile: false
     <h3 class="project-card__title">PICOSEC Micromegas</h3>
     <p class="research-project__objective">PICOSEC Micromegas combines Cherenkov light and gaseous amplification to provide precise timing for minimum-ionising particles.</p>
     <div class="research-project__image-wrapper--standard">
-      <img src="{{ base_path }}/images/research/picosec/picosec-testbeam.webp"
+      <img src="{{ base_path }}/images/research/picosec/picosec-testbeam-720.webp"
+           srcset="{{ base_path }}/images/research/picosec/picosec-testbeam-720.webp 720w,
+                   {{ base_path }}/images/research/picosec/picosec-testbeam.webp 1200w"
+           sizes="(max-width: 699px) calc(100vw - 68px), (max-width: 1099px) calc(100vw - 80px), 860px"
            alt="PICOSEC Micromegas detector test-beam activity showing timing measurement setup"
            class="research-project__image"
-           width="1200"
-           height="900"
+           width="720"
+           height="540"
            loading="lazy"
            decoding="async">
     </div>
@@ -150,15 +171,18 @@ author_profile: false
     <span class="status-label">Previous &middot; Development, commissioning, and operations</span>
     <h3 class="project-card__title">CMS GEM detectors</h3>
     <p class="research-project__objective">Large-area triple-GEM detectors extend the CMS muon system into high-rate forward regions.</p>
-    <div class="research-project__image-wrapper--standard">
+    <figure class="research-project__figure">
+      <div class="research-project__figure-media">
       <img src="{{ base_path }}/images/research/cms-gem/magnet-test.webp"
-           alt="CMS GEM detector test in a magnetic field environment"
+           alt="GOLIATH magnet test setup used for CMS GEM magnetic-field studies"
            class="research-project__image"
            width="1122"
            height="1495"
            loading="lazy"
            decoding="async">
-    </div>
+      </div>
+      <figcaption class="research-project__figure-caption">GOLIATH magnet setup used to study CMS GEM operation in a magnetic field.</figcaption>
+    </figure>
     <p class="research-project__role-title">My role</p>
     <p class="research-project__role-text">I worked from detector R&amp;D and qualification through commissioning and Run 3 operation, including gas-system responsibility and detector performance studies.</p>
     <p class="research-project__role-title">What I worked on</p>
