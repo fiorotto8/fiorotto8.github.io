@@ -1,3 +1,5 @@
+> Historical document. Superseded by the September 2026 request; see `/AGENTS.md` and `/docs/WEBSITE_REVIEW.md`.
+
 # Implementation Sequence
 
 ## Overview

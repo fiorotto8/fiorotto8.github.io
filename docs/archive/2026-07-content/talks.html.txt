@@ -1,0 +1,311 @@
+---
+layout: portfolio-page
+title: "Talks and presentations"
+permalink: /talks/
+excerpt: "Invited, plenary, and conference presentations on CYGNO, X-ray polarimetry, PICOSEC, and CMS GEM detectors."
+author_profile: false
+---
+
+<h1>Talks and presentations</h1>
+
+<p class="page-intro">
+Invited, plenary, and conference presentations on gaseous detectors, directional dark matter, X-ray polarimetry, precision timing, and detector operations.
+</p>
+
+<section class="talks-featured" aria-label="Featured talks">
+  <h2>Featured talks</h2>
+  <div class="talks-featured__grid">
+
+    <article class="talk-card">
+      <h3 class="talk-card__title">When Spin adds to N<sup>2</sup>: a proposal to probe the axial side of CEvNS with Fluorine</h3>
+      <p class="talk-card__event">WHAT ELSE &mdash; N<sup>2</sup> is better than N, LNGS</p>
+      <p class="talk-card__meta">
+        <span class="talk-card__year">2026</span>
+        <span class="talk-type talk-type--invited">Invited</span>
+      </p>
+      <a class="talk-card__link" href="https://agenda.infn.it/event/51443/timetable/?print=1" target="_blank" rel="noopener noreferrer">Official programme</a>
+    </article>
+
+    <article class="talk-card">
+      <h3 class="talk-card__title">The CYGNO experiment</h3>
+      <p class="talk-card__event">9th CYGNUS Workshop on Directional Recoil Detection</p>
+      <p class="talk-card__meta">
+        <span class="talk-card__year">2026</span>
+        <span class="talk-type talk-type--invited">Invited</span>
+      </p>
+    </article>
+
+    <article class="talk-card">
+      <h3 class="talk-card__title">X-POT: X-ray Polarimetry with Optical Time Projection Chamber</h3>
+      <p class="talk-card__event">ASAPP 2025, Girona, Spain</p>
+      <p class="talk-card__meta">
+        <span class="talk-card__year">2025</span>
+        <span class="talk-type talk-type--plenary">Plenary</span>
+      </p>
+    </article>
+
+    <article class="talk-card">
+      <h3 class="talk-card__title">PICOSEC Micromegas detector for precise muon timing in the Muon Collider detector</h3>
+      <p class="talk-card__event">FAST 2023, Elba Island, Italy</p>
+      <p class="talk-card__meta">
+        <span class="talk-card__year">2023</span>
+        <span class="talk-type talk-type--plenary">Plenary</span>
+      </p>
+    </article>
+
+  </div>
+</section>
+
+<section aria-label="Complete list of talks">
+  <h2>All talks</h2>
+  <ul class="talk-list">
+
+    <li class="talk-item">
+      <span class="talk-item__year">2026</span>
+      <span class="talk-item__title"><a href="https://agenda.infn.it/event/51443/timetable/?print=1" target="_blank" rel="noopener noreferrer">When Spin adds to N<sup>2</sup>: a proposal to probe the axial side of CEvNS with Fluorine.</a></span>
+      <span class="talk-item__event">WHAT ELSE &mdash; N<sup>2</sup> is better than N, LNGS, Italy</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2026</span>
+      <span class="talk-item__title">The CYGNO experiment.</span>
+      <span class="talk-item__event">9th CYGNUS Workshop on Directional Recoil Detection, Kobe, Japan</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">CYGNO04 Status, Assembly Procedure and Timeline.</span>
+      <span class="talk-item__event">CYGNO Collaboration Meeting, Clusone, Italy</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">Polarimetry R&amp;D status.</span>
+      <span class="talk-item__event">CYGNO Collaboration Meeting, Clusone, Italy</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">The CYGNO experiment, a gaseous TPC for directional Dark Matter searches.</span>
+      <span class="talk-item__event">TAUP 2025, Xichang, China</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">The CYGNO experiment, a gaseous TPC for directional Dark Matter searches.</span>
+      <span class="talk-item__event">EPS-HEP 2025, Marseille, France</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">X-POT: X-ray Polarimetry with Optical Time Projection Chamber.</span>
+      <span class="talk-item__event">ASAPP 2025, Girona, Spain</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">A Large-Volume, Extended Field-of-View TPC for X-ray Polarimetry.</span>
+      <span class="talk-item__event">IFD 2025, Sestri Levante, Italy</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">Photoelectric polarimeters R&amp;D.</span>
+      <span class="talk-item__event">FiXP Academy, L'Aquila, Italy</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2025</span>
+      <span class="talk-item__title">Triple-GEM TPC for X-ray polarimetry.</span>
+      <span class="talk-item__event">4th DRD1 Collaboration Meeting, CERN, Switzerland</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2024</span>
+      <span class="talk-item__title">The CYGNO experiment, a gaseous TPC for directional Dark Matter searches.</span>
+      <span class="talk-item__event">MPGD 2024, Hefei, China</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2024</span>
+      <span class="talk-item__title">Development and Preliminary Results of a Large-Volume Time Projection Chamber for X-ray Polarimetry.</span>
+      <span class="talk-item__event">MPGD 2024, Hefei, China</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2024</span>
+      <span class="talk-item__title">HypeX: High Yield Polarimetry Experiment in X-rays.</span>
+      <span class="talk-item__event">SPIE AS24, Yokohama, Japan</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2023</span>
+      <span class="talk-item__title">PICOSEC Micromegas detector for precise muon timing in the Muon Collider detector.</span>
+      <span class="talk-item__event">FAST 2023, Elba Island, Italy</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2023</span>
+      <span class="talk-item__title">Status and plans for the study of X-ray polarimetry.</span>
+      <span class="talk-item__event">CYGNO Collaboration Meeting, Frascati National Laboratories, Italy</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2023</span>
+      <span class="talk-item__title">Study of the pedestal stability.</span>
+      <span class="talk-item__event">CYGNO Collaboration Meeting, Frascati National Laboratories, Italy</span>
+      <span class="talk-type talk-type--invited">Invited</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2023</span>
+      <span class="talk-item__title">PICOSEC for the Muon Collider detector.</span>
+      <span class="talk-item__event">RD51 Mini-Week, CERN, Switzerland</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2022</span>
+      <span class="talk-item__title">PICOSEC Micromegas: a fast-timing gaseous detector for MIPs.</span>
+      <span class="talk-item__event">IFD 2022, Bari, Italy</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2022</span>
+      <span class="talk-item__title">Rate capability and high-rate GEM foil optimization for the CMS ME0 detector.</span>
+      <span class="talk-item__event">RD51 Collaboration Meeting, CERN, Switzerland</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2021</span>
+      <span class="talk-item__title">Status and commissioning of the new GE1/1 station for the CMS experiment.</span>
+      <span class="talk-item__event">EPS-HEP 2021, DESY, Germany</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2021</span>
+      <span class="talk-item__title">The gas monitoring system for safe operation of the CMS triple-GEM detectors.</span>
+      <span class="talk-item__event">SIF 2021, Milan, Italy</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2020</span>
+      <span class="talk-item__title">ME0 project for the Triple-GEM upgrade of the CMS muon spectrometer: design, preliminary performance and R&amp;D perspective.</span>
+      <span class="talk-item__event">SIF 2020, Milan, Italy</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2019</span>
+      <span class="talk-item__title">Aging studies on Triple-GEM detectors for future upgrades of the CMS endcap muon spectrometer at the HL-LHC.</span>
+      <span class="talk-item__event">IPRD 2019, Siena, Italy</span>
+      <span class="talk-type talk-type--plenary">Plenary</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2018</span>
+      <span class="talk-item__title">Advanced aging study on Triple-GEM for GE2/1 and ME0.</span>
+      <span class="talk-item__event">SIF 2018, Rende, Italy</span>
+      <span class="talk-type talk-type--parallel">Parallel</span>
+    </li>
+
+  </ul>
+</section>
+
+<section aria-label="Posters">
+  <h2>Posters</h2>
+  <ul class="poster-list">
+
+    <li class="talk-item">
+      <span class="talk-item__year">2026</span>
+      <span class="talk-item__title">Wide-Field Hard X-ray Polarimetry with a Large-Volume TPC.</span>
+      <span class="talk-item__event">9th CYGNUS Workshop on Directional Recoil Detection, Kobe, Japan</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2022</span>
+      <span class="talk-item__title">ME0 second-generation prototype chamber characterization for CMS Phase-II upgrade in the muon forward region.</span>
+      <span class="talk-item__event">LHCP 2022, Taiwan</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2021</span>
+      <span class="talk-item__title">The GEM Gas Monitoring System: using a gaseous detector as a gas detector for CMS triple-GEM safe operation.</span>
+      <span class="talk-item__event">ICALEPCS 2021, Shanghai, China</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2021</span>
+      <span class="talk-item__title">The GEM Gas Monitoring System: using a gaseous detector as a gas detector for CMS triple-GEM safe operation.</span>
+      <span class="talk-item__event">IWoRiD 2021, Ghent, Belgium</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2021</span>
+      <span class="talk-item__title">High-rate capability studies of triple-GEM detectors for the ME0 upgrade of the CMS Muon Spectrometer.</span>
+      <span class="talk-item__event">IWoRiD 2021, Ghent, Belgium</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2020</span>
+      <span class="talk-item__title">Novel triple-GEM mechanical design for the CMS ME0 detector: preliminary performance and R&amp;D results.</span>
+      <span class="talk-item__event">IEEE NSS/MIC 2020, Boston, USA</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2020</span>
+      <span class="talk-item__title">Novel triple-GEM mechanical design for the CMS ME0 detector and preliminary performance.</span>
+      <span class="talk-item__event">INSTR 2020, Novosibirsk, Russia</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2020</span>
+      <span class="talk-item__title">Comparative aging studies on a Single Wire Proportional Chamber.</span>
+      <span class="talk-item__event">INSTR 2020, Novosibirsk, Russia</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2020</span>
+      <span class="talk-item__title">Novel triple-GEM mechanical design for the CMS ME0 detector and preliminary performance.</span>
+      <span class="talk-item__event">Winter LHCC Meeting, CERN, Switzerland</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2019</span>
+      <span class="talk-item__title">Advanced aging study on Triple-GEM.</span>
+      <span class="talk-item__event">MPGD 2019, La Rochelle, France</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2019</span>
+      <span class="talk-item__title">Advanced aging study on Triple-GEM.</span>
+      <span class="talk-item__event">Winter LHCC Meeting, CERN, Switzerland</span>
+    </li>
+
+    <li class="talk-item">
+      <span class="talk-item__year">2018</span>
+      <span class="talk-item__title">Study of long-term performance of triple-GEM detectors for the upgrade of the CMS muon high-rate region at the HL-LHC.</span>
+      <span class="talk-item__event">IEEE NSS/MIC 2018, Sydney, Australia</span>
+    </li>
+
+  </ul>
+</section>

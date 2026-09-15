@@ -1,3 +1,5 @@
+> Historical document. Superseded by the September 2026 request; see `/AGENTS.md` and `/docs/WEBSITE_REVIEW.md`.
+
 # PowerShell Setup and Safe Execution
 
 ## 1. Unpack the documentation

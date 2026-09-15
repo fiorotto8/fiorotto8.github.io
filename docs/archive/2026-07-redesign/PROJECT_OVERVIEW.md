@@ -1,3 +1,5 @@
+> Historical document. Superseded by the September 2026 request; see `/AGENTS.md` and `/docs/WEBSITE_REVIEW.md`.
+
 # Project Overview — fiorotto8.github.io
 
 > Personal academic website for **Davide Fiorina**, postdoctoral researcher at GSSI/LNGS.
