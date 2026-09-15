@@ -1,0 +1,12 @@
+{% assign animation = site.data.animations[include.key] %}
+<figure class="science-animation">
+  <video controls playsinline preload="none" width="854" height="480"
+         poster="{{ animation.poster | relative_url }}"
+         aria-label="{{ animation.title | escape }}" aria-describedby="{{ include.key }}-animation-caption {{ include.key }}-animation-description">
+    <source src="{{ animation.src | relative_url }}" type="video/mp4">
+    <a href="{{ animation.src | relative_url }}">Watch {{ animation.title }}</a>
+  </video>
+  <figcaption id="{{ include.key }}-animation-caption"><strong>{{ animation.title }}</strong> · {{ animation.duration }}<br>{{ animation.summary }}</figcaption>
+  <p class="sr-only" id="{{ include.key }}-animation-description">{{ animation.description }}</p>
+  <p class="media-credit">By Davide Fiorina · <a href="{{ animation.repository }}">Animation &amp; source</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</figure>

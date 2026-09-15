@@ -1,0 +1,476 @@
+[
+  {
+    "original": "images/personal_images/Davide_Fiorina_portrait.jpg",
+    "source": "images/local/personal/portraits/davide-fiorina-portrait.jpg",
+    "key": "davide-fiorina-portrait",
+    "sha256": "2df122af135be98dcd2c964c3095e978b03e299b31205a97bd21c95422ced20f",
+    "widths": [
+      320,
+      640
+    ],
+    "lossless": false,
+    "area": "personal/portraits"
+  },
+  {
+    "original": "images/personal_images/WahatsApp Image 2026-09-15 at 18.17.38.jpeg",
+    "source": "images/local/personal/trails/trail-race-stone-steps.jpeg",
+    "key": "trail-race-stone-steps",
+    "sha256": "59e42d8b77ea22fbdba231376c2be30cc02ce0dc1defe76b000b3451d37d6644",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-11 at 17.19.27.jpeg",
+    "source": "images/local/personal/travel-and-life/garden-torii-visit.jpeg",
+    "key": "garden-torii-visit",
+    "sha256": "49aa2002e54968e8479f90888ec10471282b92f8998cb2b3af75673a9c3ac2da",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/travel-and-life"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-11 at 17.22.49.jpeg",
+    "source": "images/local/personal/travel-and-life/garden-walk.jpeg",
+    "key": "garden-walk",
+    "sha256": "1938a402663571f7376193e3faa1617f9d0ea0d25909152f80857b467bd6a6ed",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": false,
+    "area": "personal/travel-and-life"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-11 at 17.27.52.jpeg",
+    "source": "images/local/personal/mountains/mountain-lake-hike-small.jpeg",
+    "key": "mountain-lake-hike-small",
+    "sha256": "7440da63e43151705348de1559a61be644911b6e38ed915438242ceb953cefaa",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/mountains"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-11 at 17.30.51.jpeg",
+    "source": "images/local/personal/travel-and-life/wooden-bench-pose.jpeg",
+    "key": "wooden-bench-pose",
+    "sha256": "38c7b5ceb82202a701a7ad0718a906a6a43429af8183ac46a725c92caa55d58f",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/travel-and-life"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-11 at 17.32.10.jpeg",
+    "source": "images/local/personal/trains/steam-locomotive-museum.jpeg",
+    "key": "steam-locomotive-museum",
+    "sha256": "bc272fa70118d6cc0c13a24d954f7697c7c206ca30d59e4cbac5622f99fc797f",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": false,
+    "area": "personal/trains"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-11 at 17.38.37.jpeg",
+    "source": "images/local/personal/travel-and-life/outdoor-celebration.jpeg",
+    "key": "outdoor-celebration",
+    "sha256": "975e5a17ea8f72fbc74e59a0208946884caccfdd0be0b36a743ffaaf9cc91eba",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/travel-and-life"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-15 at 18.13.31.jpeg",
+    "source": "images/local/personal/trails/running-kit-portrait.jpeg",
+    "key": "running-kit-portrait",
+    "sha256": "5bd34c4b1864f4143f72944a11e76d5b6f6db8b9c529cfb7dcf6dd0aaefb69ae",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-15 at 18.17.327.jpeg",
+    "source": "images/local/personal/trails/mountain-trail-run.jpeg",
+    "key": "mountain-trail-run",
+    "sha256": "6efb46b2a9e419b76f2d8f1fc8d1c0f9a0e745a4ab7775ecd720bc1f177f0fe6",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-15 at 18.17.35.jpeg",
+    "source": "images/local/personal/trails/bicycle-snowy-trail.jpeg",
+    "key": "bicycle-snowy-trail",
+    "sha256": "b5b0f9933e026707a1e96fd37ced717ea5de1d1a7eebd951389e2ba12b013cd3",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-15 at 18.17.37.jpeg",
+    "source": "images/local/personal/trails/trail-walk-companions.jpeg",
+    "key": "trail-walk-companions",
+    "sha256": "58a16ccdedc4b96414414c0a9da69668712e8009ee0b15c70e3fc16769d7c821",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-15 at 18.17.38.jpeg",
+    "source": "images/local/personal/travel-and-life/garden-group-dog.jpeg",
+    "key": "garden-group-dog",
+    "sha256": "4db20fa4f787ba8de89800cdc0244facea12dbc4a90e7687935161ebae6957b8",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/travel-and-life"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-09-15 at 18.17.3a7.jpeg",
+    "source": "images/local/personal/trails/race-bib-portrait.jpeg",
+    "key": "race-bib-portrait",
+    "sha256": "288f91e738782ae21faf320c6ac1f686f646c9fcaa484cbe1ffa5f69990402f7",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 2026-0a9-15 at 18.17.38.jpeg",
+    "source": "images/local/personal/mountains/mountain-lake-hike.jpeg",
+    "key": "mountain-lake-hike",
+    "sha256": "ca9ed1c229234700e57e25a8e3d3f805a65c3d0c99957ae775a98e760b5aea8c",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/mountains"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Image 202645-09-15 at 18.17.38.jpeg",
+    "source": "images/local/personal/trails/trail-running-hillside.jpeg",
+    "key": "trail-running-hillside",
+    "sha256": "79a2630f632ec1e8d2180cf9a416d35bdddaa37038d8548f99f89317bc615846",
+    "widths": [
+      480,
+      960
+    ],
+    "lossless": false,
+    "area": "personal/trails"
+  },
+  {
+    "original": "images/personal_images/WhatsApp Imagea 2026-09-15 at 18.17.38.jpeg",
+    "source": "images/local/personal/mountains/snowfield-hike.jpeg",
+    "key": "snowfield-hike",
+    "sha256": "152cf27dad66d1dda94a051e954bc41c174654a16b322343be155e7e4d1cf2b9",
+    "widths": [],
+    "lossless": false,
+    "area": "personal/mountains"
+  },
+  {
+    "original": "images/personal_images/WhatshApp Image 2026-09-15 at 18.17.37.jpeg",
+    "source": "images/local/research/cygno/cleanroom-selfie.jpeg",
+    "key": "cleanroom-selfie",
+    "sha256": "43d60d31857a0368facd983b3b4d39f1c89c8cb96b4e63b65d20f099e2e76aa5",
+    "widths": [],
+    "lossless": false,
+    "area": "research/cygno"
+  },
+  {
+    "original": "images/work_images/DRD1_school.jpg",
+    "source": "images/local/teaching/detector-school-bench.jpg",
+    "key": "detector-school-bench-previous",
+    "sha256": "13022105a8b525831021c470a17aaa3376e9c2389fe2c9b54013d66783982e3b",
+    "widths": [],
+    "lossless": false,
+    "area": "teaching"
+  },
+  {
+    "original": "images/work_images/LNGS.jpg",
+    "source": "images/local/research/concepts/gran-sasso-laboratory-cutaway.jpg",
+    "key": "gran-sasso-laboratory-cutaway",
+    "sha256": "0375bd250a52281a27820b55a16b2233c42ff819430442d49c808fcd780a4705",
+    "widths": [],
+    "lossless": false,
+    "area": "research/concepts"
+  },
+  {
+    "original": "images/work_images/LNGS_school.png",
+    "source": "images/local/teaching/gran-sasso-school-group.png",
+    "key": "gran-sasso-school-group-previous",
+    "sha256": "0995023636ccbcc011c4f73d47ec0a8537d73c2cd414c85c2d9bdb3cb94b49ed",
+    "widths": [],
+    "lossless": false,
+    "area": "teaching"
+  },
+  {
+    "original": "images/work_images/Testbeam_people.png",
+    "source": "images/local/research/picosec/test-beam-team.png",
+    "key": "test-beam-team-previous",
+    "sha256": "4bafbeb305f2fd3d6b7fde9ee15162096a0551d4459d1e6be75f09bcc159aece",
+    "widths": [],
+    "lossless": false,
+    "area": "research/picosec"
+  },
+  {
+    "original": "images/work_images/gif_setup.jpg",
+    "source": "images/local/research/cms-gem/irradiation-test-setup.jpg",
+    "key": "irradiation-test-setup",
+    "sha256": "25f6c753c3f039ad7538fe5ce0b33654118d523144089676415eb60e04b9c48f",
+    "widths": [],
+    "lossless": false,
+    "area": "research/cms-gem"
+  },
+  {
+    "original": "images/work_images/magnet_setup.jpg",
+    "source": "images/local/research/cms-gem/goliath-magnet-test.jpg",
+    "key": "goliath-magnet-test",
+    "sha256": "efdf490f99ccf0be2fc751caac12d24b0641e514608d7486d50f31e0bd7784d7",
+    "widths": [],
+    "lossless": false,
+    "area": "research/cms-gem"
+  },
+  {
+    "original": "images/work_images/picosec_large_prototype.png",
+    "source": "images/local/research/picosec/picosec-prototype-readout.png",
+    "key": "picosec-prototype-readout",
+    "sha256": "0c21f3c45f4d6a9ce704c89c9c8bbb9868483ae45f6ac252e94e1a2297bc55b6",
+    "widths": [],
+    "lossless": false,
+    "area": "research/picosec"
+  },
+  {
+    "original": "images/work_images/picosec_large_prototype_2.jpg",
+    "source": "images/local/research/picosec/picosec-test-beam-setup.jpg",
+    "key": "picosec-test-beam-setup",
+    "sha256": "24dfab8ca9b522b8f0d1be12f76769179f2d8d89b0d1dd80dda577599530ef66",
+    "widths": [],
+    "lossless": false,
+    "area": "research/picosec"
+  },
+  {
+    "original": "images/work_images/poalrimetry_setup.jpg",
+    "source": "images/local/research/polarimetry/polarimetry-bench-setup.jpg",
+    "key": "polarimetry-bench-setup",
+    "sha256": "9c235488286165c32e5d1f11d7c3dd174ca796a5c3701903af48697d1abadb30",
+    "widths": [],
+    "lossless": false,
+    "area": "research/polarimetry"
+  },
+  {
+    "original": "images/work_images/poalrization_scheme.png",
+    "source": "images/local/research/polarimetry/photoelectron-polarimetry-schematic.png",
+    "key": "photoelectron-polarimetry-schematic",
+    "sha256": "03ed15e780cca654a9ed3ea4d4cf54601a9bf867149cf6faee2fb3b46ebb78fb",
+    "widths": [
+      300,
+      597
+    ],
+    "lossless": true,
+    "area": "research/polarimetry"
+  },
+  {
+    "original": "images/work_images/polarimetry_prototype.jpg",
+    "source": "images/local/research/polarimetry/optical-tpc-prototype.jpg",
+    "key": "optical-tpc-prototype-previous",
+    "sha256": "54941bfa09363cc47fb45a28c84712c1c5e4abd10b72a3c4cc6c478911ee1c5a",
+    "widths": [],
+    "lossless": false,
+    "area": "research/polarimetry"
+  },
+  {
+    "original": "images/work_images/radiopure_box_cygno.jpg",
+    "source": "images/local/research/cygno/cygno-copper-vessel-portrait.jpg",
+    "key": "cygno-copper-vessel-portrait",
+    "sha256": "69f8e13f60ba1172e73a588523f64bb1c3c0df518a438386c75991aca5f2f310",
+    "widths": [],
+    "lossless": false,
+    "area": "research/cygno"
+  },
+  {
+    "original": "images/work_images/radiopure_box_cygno_2.jpg",
+    "source": "images/local/research/cygno/cygno-copper-vessel-assembly.jpg",
+    "key": "cygno-copper-vessel-assembly",
+    "sha256": "0dab436c13f5c8e4ae9c3db33f1e308cab26a6143217bf8a32ae3e034078b5f6",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": false,
+    "area": "research/cygno"
+  },
+  {
+    "original": "images/work_images/spacraft launch.jpg",
+    "source": "images/local/research/concepts/rocket-launch.jpg",
+    "key": "rocket-launch",
+    "sha256": "e269c8b7870245a7315a32b38b4877b4fe831ddf005d765de16d922d9107d0a4",
+    "widths": [],
+    "lossless": false,
+    "area": "research/concepts"
+  },
+  {
+    "original": "images/research/cygno/cygno04-cleanroom.jpeg",
+    "source": "images/local/research/cygno/cygno04-cleanroom.jpeg",
+    "sha256": "68290bdd536323df95e76f9798f0dcf5c6c928d29ace51c4dbc21a186b612d92",
+    "lossless": false,
+    "key": "cygno04-cleanroom",
+    "area": "research/cygno",
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "original": "images/profile/PXL_20230623_153017470.jpg",
+    "source": "images/local/research/cygno/cleanroom-assembly.jpg",
+    "sha256": "5953b52ea5a085d09ab58bddc12f72aaf5e7977129ec04f8e6f2543b707c920c",
+    "lossless": false,
+    "key": "cleanroom-assembly",
+    "area": "research/cygno",
+    "widths": [
+      320,
+      640
+    ]
+  },
+  {
+    "original": "images/image_larger_resolution/Immagine 2026-09-15 191459.png",
+    "source": "images/local/research/polarimetry/optical-tpc-prototype-large.png",
+    "sha256": "97376011ea5a53ac09052a99ede31ae6ca6240403388e67c9dd1d7c3f4cc0cdf",
+    "lossless": false,
+    "key": "optical-tpc-prototype",
+    "area": "research/polarimetry",
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "original": "images/image_larger_resolution/Immagine 2026-09-15 191605.png",
+    "source": "images/local/teaching/detector-school-bench-large.png",
+    "sha256": "9481361e80cb5977cb55cdc90e1fbfbf03e09fdfeca06cd848cb807d2e510d51",
+    "lossless": false,
+    "key": "detector-school-bench",
+    "area": "teaching",
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "original": "images/image_larger_resolution/Immagine 2026-09-15 191620.png",
+    "source": "images/local/teaching/gran-sasso-school-group-large.png",
+    "sha256": "942801b69388264225c7c19044aacd6253fec633175ebbca779ff8815f9977af",
+    "lossless": false,
+    "key": "gran-sasso-school-group",
+    "area": "teaching",
+    "widths": [
+      480,
+      960
+    ]
+  },
+  {
+    "original": "images/image_larger_resolution/IMG_2243.jpg",
+    "source": "images/local/research/picosec/test-beam-team-original.jpg",
+    "sha256": "9a443f8c64639fc025ff8d6c3a45a03ad47c78f4c821f4093b7833da3dbdbfd6",
+    "lossless": false,
+    "key": "test-beam-team",
+    "area": "research/picosec",
+    "widths": [
+      480,
+      960
+    ]
+  },
+  {
+    "original": "images/work_images/gem_gif.png",
+    "source": "images/local/research/cms-gem/gif-detector-work.png",
+    "sha256": "5acc58702e12dfc498044994319961143f41758bf79af2a8c35138b447107550",
+    "lossless": false,
+    "key": "gif-detector-work",
+    "area": "research/cms-gem",
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "original": "images/work_images/gem_gif_2.png",
+    "source": "images/local/research/cms-gem/gif-irradiation-detectors.png",
+    "sha256": "97b0bd7e2bde2b72f3b672653131edc5222d88360619a22b126072aad3a0012b",
+    "lossless": false,
+    "key": "gif-irradiation-detectors",
+    "area": "research/cms-gem",
+    "widths": [
+      360,
+      720
+    ]
+  },
+  {
+    "original": "images/CEvNS_concept_detector.png",
+    "source": "images/local/research/neutrinos/cevns-detector-concept.png",
+    "key": "cevns-detector-concept",
+    "sha256": "7de7db2717e028e068313deb1cc8eae61705f5836601c97e1e2932d12b8884e1",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": true,
+    "area": "research/neutrinos"
+  },
+  {
+    "original": "images/EXPO_instrument.png",
+    "source": "images/local/research/expo/expo-instrument-concept.png",
+    "key": "expo-instrument-concept",
+    "sha256": "d3e1868f3c38478dd27f3117d2096f3b0e2e51ae08e00291d9ba39dc2fb088ec",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": true,
+    "area": "research/expo"
+  },
+  {
+    "original": "images/expo_payload.png",
+    "source": "images/local/research/expo/expo-payload-concept.png",
+    "key": "expo-payload-concept",
+    "sha256": "a803089e8756305a2ba0d15d9e7c3dd93e41d876346894c88b3535b373511a15",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": true,
+    "area": "research/expo"
+  },
+  {
+    "original": "images/local/research/polarimetry/poalrimetry-test.jpg.png",
+    "source": "images/local/research/polarimetry/polarimetry-laboratory-work.png",
+    "key": "polarimetry-laboratory-work",
+    "sha256": "406a37d4ce1b45e674dae3fc2d13d9a640d1740b7d091eb4a45189cb32181631",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": false,
+    "area": "research/polarimetry"
+  },
+  {
+    "key": "mountain-lake-portrait",
+    "original": "images/profile/profile_1.jpeg",
+    "source": "images/local/personal/mountains/mountain-lake-portrait.jpeg",
+    "area": "personal/mountains",
+    "widths": [
+      360,
+      720
+    ],
+    "lossless": false,
+    "sha256": "dec42df741c38b392437199a5fcb27dbbaa1765f119dda1a1058d8c083740bf1"
+  },
+  {
+    "key": "public-talk",
+    "original": "images/teaching/public-talk.png",
+    "source": "images/local/teaching/public-talk.png",
+    "area": "teaching",
+    "widths": [
+      320,
+      554
+    ],
+    "lossless": false,
+    "sha256": "47d27658b5769c353c76835142990cc80f34716702da0c71e516d58d77bdce19"
+  }
+]

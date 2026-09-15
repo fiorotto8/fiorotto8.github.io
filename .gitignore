@@ -4,3 +4,6 @@ _site/
 .sass-cache/
 vendor/bundle/
 files/cv.tex
+.site-review/
+node_modules/
+/images/local/

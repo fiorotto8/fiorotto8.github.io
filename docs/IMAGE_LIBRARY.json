@@ -1,0 +1,996 @@
+[
+  {
+    "previous": "images/CERN-logo.svg",
+    "path": "images/local/identity/CERN-logo.svg",
+    "sha256": "71a9f0544c514c53af756d2154e26d644d391eccb3d9b71a1af5bdaeeee8c9a8",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/apple-touch-icon.png",
+    "path": "images/public/identity/apple-touch-icon.png",
+    "sha256": "61bd056eb5ced886e9b91c774f15a7a5b274f3ccb7f64bee2870506c400028ed",
+    "publication": "public",
+    "area": "identity"
+  },
+  {
+    "previous": "images/browserconfig.xml",
+    "path": "images/local/identity/browserconfig.xml",
+    "sha256": "d747da16010b583b6f0fb46b698cbd98e792bfb06963994034869c0c6ddcdba9",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/cygno-logo-180.webp",
+    "path": "images/local/identity/cygno-logo-180.webp",
+    "sha256": "c87470ca495a07c5dce8533a032b3201d1192aa399f9516c29c3559599af9db6",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/cygno-logo.jpg",
+    "path": "images/local/identity/cygno-logo.jpg",
+    "sha256": "62ea3931ecd5ad843024b1bad80c1417f06436b9ffd54546028a55ea8f2035dc",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/cygno-logo.webp",
+    "path": "images/local/identity/cygno-logo.webp",
+    "sha256": "881c5589eb3ccd3b4eb7601cc1ad58cf8c66907091941b6b37112029c080fdd7",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/favicon.svg",
+    "path": "images/public/identity/favicon.svg",
+    "sha256": "6ea8f3b42b6b2b2c290dcc7a500090e3682e5252d0acae9675419bf91f0085cf",
+    "publication": "public",
+    "area": "identity"
+  },
+  {
+    "previous": "images/gssi-logo.png",
+    "path": "images/local/identity/gssi-logo.png",
+    "sha256": "fcf26f4801ccf1cc9e3dadbe22c54a2167f6395cfcc5af5ed6465aeaa71d6094",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/gssi-logo.webp",
+    "path": "images/local/identity/gssi-logo.webp",
+    "sha256": "a25ec5b2d03bdcd21611a80f9eba0afbe6085be841efbc136cc3ce265b1893dd",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/icon-192.png",
+    "path": "images/public/identity/icon-192.png",
+    "sha256": "9c8d3ec2440ea6b5893735a2327542279dd9fe181da8476776c3c4bc1a52a5c2",
+    "publication": "public",
+    "area": "identity"
+  },
+  {
+    "previous": "images/icon-512.png",
+    "path": "images/public/identity/icon-512.png",
+    "sha256": "baa4912f0800a1f84ddc1cf5a7814545436e5285f5f380381d5f3175e3864cbb",
+    "publication": "public",
+    "area": "identity"
+  },
+  {
+    "previous": "images/image_larger_resolution/IMG_2243.jpg",
+    "path": "images/local/research/picosec/test-beam-team-original.jpg",
+    "sha256": "9a443f8c64639fc025ff8d6c3a45a03ad47c78f4c821f4093b7833da3dbdbfd6",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191421.png",
+    "path": "images/local/research/polarimetry/photoelectron-schematic-large.png",
+    "sha256": "39aa21503ceb5a1bb729a972373b2a7c7e5f02d9da3b7b9d295a77376da60c35",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191437.png",
+    "path": "images/local/research/concepts/rocket-launch-large.png",
+    "sha256": "7977fcc5df242d46f0ac52cefa64a1963c5acdd5869ecb86b70e8123d8f2daa8",
+    "publication": "local",
+    "area": "research/concepts"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191459.png",
+    "path": "images/local/research/polarimetry/optical-tpc-prototype-large.png",
+    "sha256": "97376011ea5a53ac09052a99ede31ae6ca6240403388e67c9dd1d7c3f4cc0cdf",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191520.png",
+    "path": "images/local/research/picosec/prototype-readout-large.png",
+    "sha256": "01fde597c2a3169b6c17e98a63a40fcd909904a5ae3378fe86091042ab3d2b88",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191534.png",
+    "path": "images/local/research/cms-gem/irradiation-setup-large.png",
+    "sha256": "a6e92b32272db3f58d0cce4a65b0ffcac2d3b6b159b47a19f448cf051e5f4aa1",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191553.png",
+    "path": "images/local/research/cms-gem/magnet-test-large.png",
+    "sha256": "d84a5dad73df642902669a2a3613bc9ad773c5a70b8ee4a5fa12b861b15df2c8",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191605.png",
+    "path": "images/local/teaching/detector-school-bench-large.png",
+    "sha256": "9481361e80cb5977cb55cdc90e1fbfbf03e09fdfeca06cd848cb807d2e510d51",
+    "publication": "local",
+    "area": "teaching"
+  },
+  {
+    "previous": "images/image_larger_resolution/Immagine 2026-09-15 191620.png",
+    "path": "images/local/teaching/gran-sasso-school-group-large.png",
+    "sha256": "942801b69388264225c7c19044aacd6253fec633175ebbca779ff8815f9977af",
+    "publication": "local",
+    "area": "teaching"
+  },
+  {
+    "previous": "images/infn-logo.jpg",
+    "path": "images/local/identity/infn-logo.jpg",
+    "sha256": "4eca2b1502a5bb08a2a64beaef21e29df76b2c807b4cb824632b11ffa4e9e62c",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/infn-logo.webp",
+    "path": "images/local/identity/infn-logo.webp",
+    "sha256": "1daa1afbcda440e34d55b0481e69f492ea6c1afd7c9c8381fc2ccf462342c22b",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/manifest.json",
+    "path": "images/public/identity/manifest.json",
+    "sha256": "3818e52b4141405f87826a13b40a3a585ea22fce0385b0c0c2c995fd066a932b",
+    "publication": "public",
+    "area": "identity"
+  },
+  {
+    "previous": "images/mstile-144x144.png",
+    "path": "images/local/identity/mstile-144x144.png",
+    "sha256": "6d7b2e6b7ef6535977fbfbe05eaa5e801b00103d920c3e2c7ddc7c29ee904698",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/mstile-150x150.png",
+    "path": "images/local/identity/mstile-150x150.png",
+    "sha256": "a311dd950ab1c6359e86745a592f734f8a668142f5d5b9a818e56818755697c0",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/mstile-310x150.png",
+    "path": "images/local/identity/mstile-310x150.png",
+    "sha256": "8c99a8d250718b847b840b2922420e5b74a0df28ef1856dc96045883e323ad23",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/mstile-310x310.png",
+    "path": "images/local/identity/mstile-310x310.png",
+    "sha256": "84f8b2b20024cc501e49873d93b43b7750da127d008172466eb2673ca5b02944",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/mstile-70x70.png",
+    "path": "images/local/identity/mstile-70x70.png",
+    "sha256": "3c5ef6a88e4cc8486af6ec878357ea4979b6febbb9c2bfb05a475c8be5578279",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/personal_images/bicycle-snowy-trail.jpeg",
+    "path": "images/local/personal/trails/bicycle-snowy-trail.jpeg",
+    "sha256": "b5b0f9933e026707a1e96fd37ced717ea5de1d1a7eebd951389e2ba12b013cd3",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/cleanroom-selfie.jpeg",
+    "path": "images/local/research/cygno/cleanroom-selfie.jpeg",
+    "sha256": "43d60d31857a0368facd983b3b4d39f1c89c8cb96b4e63b65d20f099e2e76aa5",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/personal_images/davide-fiorina-portrait.jpg",
+    "path": "images/local/personal/portraits/davide-fiorina-portrait.jpg",
+    "sha256": "2df122af135be98dcd2c964c3095e978b03e299b31205a97bd21c95422ced20f",
+    "publication": "local",
+    "area": "personal/portraits"
+  },
+  {
+    "previous": "images/personal_images/garden-group-dog.jpeg",
+    "path": "images/local/personal/travel-and-life/garden-group-dog.jpeg",
+    "sha256": "4db20fa4f787ba8de89800cdc0244facea12dbc4a90e7687935161ebae6957b8",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/personal_images/garden-torii-visit.jpeg",
+    "path": "images/local/personal/travel-and-life/garden-torii-visit.jpeg",
+    "sha256": "49aa2002e54968e8479f90888ec10471282b92f8998cb2b3af75673a9c3ac2da",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/personal_images/garden-walk.jpeg",
+    "path": "images/local/personal/travel-and-life/garden-walk.jpeg",
+    "sha256": "1938a402663571f7376193e3faa1617f9d0ea0d25909152f80857b467bd6a6ed",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/personal_images/mountain-lake-hike-small.jpeg",
+    "path": "images/local/personal/mountains/mountain-lake-hike-small.jpeg",
+    "sha256": "7440da63e43151705348de1559a61be644911b6e38ed915438242ceb953cefaa",
+    "publication": "local",
+    "area": "personal/mountains"
+  },
+  {
+    "previous": "images/personal_images/mountain-lake-hike.jpeg",
+    "path": "images/local/personal/mountains/mountain-lake-hike.jpeg",
+    "sha256": "ca9ed1c229234700e57e25a8e3d3f805a65c3d0c99957ae775a98e760b5aea8c",
+    "publication": "local",
+    "area": "personal/mountains"
+  },
+  {
+    "previous": "images/personal_images/mountain-trail-run.jpeg",
+    "path": "images/local/personal/trails/mountain-trail-run.jpeg",
+    "sha256": "6efb46b2a9e419b76f2d8f1fc8d1c0f9a0e745a4ab7775ecd720bc1f177f0fe6",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/outdoor-celebration.jpeg",
+    "path": "images/local/personal/travel-and-life/outdoor-celebration.jpeg",
+    "sha256": "975e5a17ea8f72fbc74e59a0208946884caccfdd0be0b36a743ffaaf9cc91eba",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/personal_images/race-bib-portrait.jpeg",
+    "path": "images/local/personal/trails/race-bib-portrait.jpeg",
+    "sha256": "288f91e738782ae21faf320c6ac1f686f646c9fcaa484cbe1ffa5f69990402f7",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/running-kit-portrait.jpeg",
+    "path": "images/local/personal/trails/running-kit-portrait.jpeg",
+    "sha256": "5bd34c4b1864f4143f72944a11e76d5b6f6db8b9c529cfb7dcf6dd0aaefb69ae",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/snowfield-hike.jpeg",
+    "path": "images/local/personal/mountains/snowfield-hike.jpeg",
+    "sha256": "152cf27dad66d1dda94a051e954bc41c174654a16b322343be155e7e4d1cf2b9",
+    "publication": "local",
+    "area": "personal/mountains"
+  },
+  {
+    "previous": "images/personal_images/steam-locomotive-museum.jpeg",
+    "path": "images/local/personal/trains/steam-locomotive-museum.jpeg",
+    "sha256": "bc272fa70118d6cc0c13a24d954f7697c7c206ca30d59e4cbac5622f99fc797f",
+    "publication": "local",
+    "area": "personal/trains"
+  },
+  {
+    "previous": "images/personal_images/trail-race-stone-steps.jpeg",
+    "path": "images/local/personal/trails/trail-race-stone-steps.jpeg",
+    "sha256": "59e42d8b77ea22fbdba231376c2be30cc02ce0dc1defe76b000b3451d37d6644",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/trail-running-hillside.jpeg",
+    "path": "images/local/personal/trails/trail-running-hillside.jpeg",
+    "sha256": "79a2630f632ec1e8d2180cf9a416d35bdddaa37038d8548f99f89317bc615846",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/trail-walk-companions.jpeg",
+    "path": "images/local/personal/trails/trail-walk-companions.jpeg",
+    "sha256": "58a16ccdedc4b96414414c0a9da69668712e8009ee0b15c70e3fc16769d7c821",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/personal_images/wooden-bench-pose.jpeg",
+    "path": "images/local/personal/travel-and-life/wooden-bench-pose.jpeg",
+    "sha256": "38c7b5ceb82202a701a7ad0718a906a6a43429af8183ac46a725c92caa55d58f",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/profile/P8100200.JPG",
+    "path": "images/local/personal/portraits/night-portrait.jpg",
+    "sha256": "7cd2e322f959360834137284c8e1977a00978debb35653bc91b520a9f4b4d9c4",
+    "publication": "local",
+    "area": "personal/portraits"
+  },
+  {
+    "previous": "images/profile/PXL_20220518_162423739.jpg",
+    "path": "images/local/personal/portraits/car-portrait.jpg",
+    "sha256": "eb1aa0115c8e8909751def0ad051481692372f4ec15e1db106b259f057b273db",
+    "publication": "local",
+    "area": "personal/portraits"
+  },
+  {
+    "previous": "images/profile/PXL_20220523_082139366.jpg",
+    "path": "images/local/research/picosec/test-beam-selfie.jpg",
+    "sha256": "dcf9e7855906c0d93e65c42fb4fb412753403085861189e139b08cc986975ea4",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/profile/PXL_20220618_091836910.MP.jpg",
+    "path": "images/local/research/picosec/helmet-portrait.jpg",
+    "sha256": "c018ac05152bec4e4c7dd8ef7abe64ef5fc24c5d819072d8a6176f49de2ace4c",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_101748084.jpg",
+    "path": "images/local/research/picosec/test-beam-hall.jpg",
+    "sha256": "2f61e9c11b7abd2a168f4ce37195cddfe6d43d106156fafe9bf2dc568ddb9ce2",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_151844547.jpg",
+    "path": "images/local/research/cygno/cleanroom-work-side.jpg",
+    "sha256": "35cd2d0831e8cc3af3fdb76ade6db3d85c3d72811868ce131cd82116f3e41dee",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_153017470-480.webp",
+    "path": "images/local/research/cygno/retired-renditions/pxl-20230623-153017470-480.webp",
+    "sha256": "2f8c0df4acca026bc2feed54f9a71ea07d6289210333580b60ceb52a158f736c",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_153017470-600.webp",
+    "path": "images/local/research/cygno/retired-renditions/pxl-20230623-153017470-600.webp",
+    "sha256": "7caa978ff2210af1c991d65f1188d4d6e2d8cd1542ed6ab743847f626aaeb700",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_153017470-840.webp",
+    "path": "images/local/research/cygno/retired-renditions/pxl-20230623-153017470-840.webp",
+    "sha256": "1059daa36933838fb061f6cbbc81f2b16c40e6a716e9e4d73ba3951e9e25f7c1",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_153017470.jpg",
+    "path": "images/local/research/cygno/cleanroom-assembly.jpg",
+    "sha256": "5953b52ea5a085d09ab58bddc12f72aaf5e7977129ec04f8e6f2543b707c920c",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/profile/PXL_20230623_153017470.webp",
+    "path": "images/local/research/cygno/retired-renditions/pxl-20230623-153017470.webp",
+    "sha256": "c35452bab13bd45e468fe2117f6c3eec85abd34832c68fb62bf88234bfa6a969",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/profile/WhaatsApp Image 2026-07-08 at 19.09.25.jpeg",
+    "path": "images/local/personal/travel-and-life/outdoor-meal.jpeg",
+    "sha256": "21c23de259bc7a467855fdde7b8ff00c9bc03212cf06f4c7c4bbf373f4e45c79",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/profile/WhaatsApp Image 2026-07-09 at 15.35.41.jpeg",
+    "path": "images/local/research/picosec/test-beam-bench-portrait.jpeg",
+    "sha256": "99d7b5ab86ee9673afd9fed2d442fda1d5a3a10b2df8cabdd5d0e4368565e33f",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/profile/WhatsApp Imagaae 2026-07-08 at 19.09.25.jpeg",
+    "path": "images/local/research/picosec/helmet-selfie.jpeg",
+    "sha256": "433785e93c6ec465091b24d9481311872578eb77d3e00bc2e82c9353f2314ed5",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/profile/WhatsApp Image 2026-07-08 at 19.09.25.jpeg",
+    "path": "images/local/personal/mountains/climbing-helmet-selfie.jpeg",
+    "sha256": "7aaa8598086bbd85112d65c933110f39ce733f3f0cd869cf9c2eae3cdd459475",
+    "publication": "local",
+    "area": "personal/mountains"
+  },
+  {
+    "previous": "images/profile/WhatsApp Image 2026-07-08 at 19.0a9.25.jpeg",
+    "path": "images/local/personal/travel-and-life/wooden-bench-portrait.jpeg",
+    "sha256": "c579f9acfbc71d14d46a20340998457399d9766d1dcd49d78c4dac391d4343e1",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/profile/WhatsApp Image 2026-07-09 at 15.35.21.jpeg",
+    "path": "images/local/research/picosec/chamber-assembly-portrait.jpeg",
+    "sha256": "0180bb0c874e26485346c0af05176d1753e05d57c099628e2ed98f5f12c03a8b",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/profile/a.jpeg",
+    "path": "images/local/personal/travel-and-life/meal-portrait.jpeg",
+    "sha256": "61c9ec102263af387be30a65ec727545ac9127183f7e95fbcb2fdcfb3ea7ae7d",
+    "publication": "local",
+    "area": "personal/travel-and-life"
+  },
+  {
+    "previous": "images/profile/not-to-use/IMG-20210629-WA0015.jpg",
+    "path": "images/local/personal/not-for-use/street-portrait.jpg",
+    "sha256": "afa2fbd3281f00b4a80b7e9478714445e217ad77ab3ad433a018c8ff97bbe72e",
+    "publication": "local",
+    "area": "personal/not-for-use"
+  },
+  {
+    "previous": "images/profile/not-to-use/Picture10.jpg",
+    "path": "images/local/personal/not-for-use/lab-portrait.jpg",
+    "sha256": "75c0147a836c8af393c804d4e3165371233f02b9d36ee038286974c00b489bb1",
+    "publication": "local",
+    "area": "personal/not-for-use"
+  },
+  {
+    "previous": "images/profile/not-to-use/ano.jpg",
+    "path": "images/local/personal/not-for-use/detector-portrait.jpg",
+    "sha256": "e1853e3795c02ed26c414aaa7b6b83cec378f184d440db1dbaa29971c58fbbbd",
+    "publication": "local",
+    "area": "personal/not-for-use"
+  },
+  {
+    "previous": "images/profile/profile_1.jpeg",
+    "path": "images/local/personal/mountains/mountain-lake-portrait.jpeg",
+    "sha256": "dec42df741c38b392437199a5fcb27dbbaa1765f119dda1a1058d8c083740bf1",
+    "publication": "local",
+    "area": "personal/mountains"
+  },
+  {
+    "previous": "images/profile/profile_2.jpeg",
+    "path": "images/local/personal/portraits/indoor-portrait.jpeg",
+    "sha256": "cbe4c4f067dbe94a53f75ef3613d69f7910235a7d27a70701a3675e0d50a8ea7",
+    "publication": "local",
+    "area": "personal/portraits"
+  },
+  {
+    "previous": "images/profile/profile_3.jpeg",
+    "path": "images/local/personal/portraits/indoor-portrait-2.jpeg",
+    "sha256": "d885461480e23626795c2814dcf760bf39a8d7fc6129f72bdef2b773f09f4e25",
+    "publication": "local",
+    "area": "personal/portraits"
+  },
+  {
+    "previous": "images/research/R&D/CEvNS.png",
+    "path": "images/local/research/concepts/cevns.png",
+    "sha256": "6cf59ae1eaafccc99181f5b766b709a9888d56a355b421806205c85e8dc9febb",
+    "publication": "local",
+    "area": "research/concepts"
+  },
+  {
+    "previous": "images/research/R&D/EXPO-720.webp",
+    "path": "images/local/research/concepts/retired-renditions/expo-720.webp",
+    "sha256": "66934ab4bf6cc9d9213dddce7d537285787255e70aa126b4f7834d3816cd15cd",
+    "publication": "local",
+    "area": "research/concepts/retired-renditions"
+  },
+  {
+    "previous": "images/research/R&D/EXPO.png",
+    "path": "images/local/research/concepts/expo.png",
+    "sha256": "4162f81fcbbb4deab95c8c28ac16841195dfe7cb61d2ef294cded14bc025e70e",
+    "publication": "local",
+    "area": "research/concepts"
+  },
+  {
+    "previous": "images/research/R&D/EXPO.webp",
+    "path": "images/local/research/concepts/retired-renditions/expo.webp",
+    "sha256": "40dcd28b375a7134be2d618169ab0bea16928a7d9b19f20226fb53b3e216be68",
+    "publication": "local",
+    "area": "research/concepts/retired-renditions"
+  },
+  {
+    "previous": "images/research/R&D/superK-tank.png",
+    "path": "images/local/research/concepts/superk-tank.png",
+    "sha256": "ceb97a19106bd8b80ed2addd47e58a3eb80c147942aede7919f34c18330fc1bc",
+    "publication": "local",
+    "area": "research/concepts"
+  },
+  {
+    "previous": "images/research/cms-gem/gif++-test1.jpg",
+    "path": "images/local/research/cms-gem/gif--test1.jpg",
+    "sha256": "d5d241c048ff20e51cbd919a4ff28f0d8e029738433bb4d093e191e44572b0fa",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/research/cms-gem/magnet-test.jpg",
+    "path": "images/local/research/cms-gem/magnet-test.jpg",
+    "sha256": "14231084d639b97dc68b85794d8ccdddbb830e4def0bef399f2dd65122bf4999",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/research/cms-gem/magnet-test.webp",
+    "path": "images/local/research/cms-gem/retired-renditions/magnet-test.webp",
+    "sha256": "11c11e175b5acfd6c06e6ca5a0a5806a71d4d8e084a26c023febf5596a5edab3",
+    "publication": "local",
+    "area": "research/cms-gem/retired-renditions"
+  },
+  {
+    "previous": "images/research/cygno/LIME-decommissioning.jpg",
+    "path": "images/local/research/cygno/lime-decommissioning.jpg",
+    "sha256": "5855ddab917fe873205e865314558d7af954c1db6a1e018fe261a0d451711c1d",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/research/cygno/cygno04-cleanroom-720.webp",
+    "path": "images/local/research/cygno/retired-renditions/cygno04-cleanroom-720.webp",
+    "sha256": "5703a68865321170cdb888696f7191461ab543399a7f2ae5df6974c181b43c34",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/research/cygno/cygno04-cleanroom.jpeg",
+    "path": "images/local/research/cygno/cygno04-cleanroom.jpeg",
+    "sha256": "68290bdd536323df95e76f9798f0dcf5c6c928d29ace51c4dbc21a186b612d92",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/research/cygno/cygno04-cleanroom.webp",
+    "path": "images/local/research/cygno/retired-renditions/cygno04-cleanroom.webp",
+    "sha256": "95f0ce80a74e575299d26bcc07461fc8543c5f3b39695e4cdfd52a470c20690f",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/research/picosec/picosec-testbeam-720.webp",
+    "path": "images/local/research/picosec/retired-renditions/picosec-testbeam-720.webp",
+    "sha256": "652ee6cc07832d158ba5d958ca88f64414beb1a2dd4872213ee68c05ff60047d",
+    "publication": "local",
+    "area": "research/picosec/retired-renditions"
+  },
+  {
+    "previous": "images/research/picosec/picosec-testbeam.png",
+    "path": "images/local/research/picosec/picosec-testbeam.png",
+    "sha256": "9a443f8c64639fc025ff8d6c3a45a03ad47c78f4c821f4093b7833da3dbdbfd6",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/research/picosec/picosec-testbeam.webp",
+    "path": "images/local/research/picosec/retired-renditions/picosec-testbeam.webp",
+    "sha256": "c0ad340294d5937494a3cbf3fc3f5ff9b6e2e199c9e43b18c374cff58454a3ca",
+    "publication": "local",
+    "area": "research/picosec/retired-renditions"
+  },
+  {
+    "previous": "images/research/picosec/picosec-timeresolution.png",
+    "path": "images/local/research/picosec/picosec-timeresolution.png",
+    "sha256": "1697873d7e95409be33c9091ca8e3eb513b034de84c1c0ec006c70b5db6d02d0",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/research/xray-polarimetry/poalrimetry-test.jpg",
+    "path": "images/local/research/polarimetry/poalrimetry-test.jpg",
+    "sha256": "9c235488286165c32e5d1f11d7c3dd174ca796a5c3701903af48697d1abadb30",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/research/xray-polarimetry/poalrimetry-test.jpg.png",
+    "path": "images/local/research/polarimetry/polarimetry-laboratory-work.png",
+    "sha256": "406a37d4ce1b45e674dae3fc2d13d9a640d1740b7d091eb4a45189cb32181631",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/research/xray-polarimetry/polarimetry-schetck.png",
+    "path": "images/local/research/polarimetry/polarimetry-schetck.png",
+    "sha256": "be2175beab62ac4569527fa3f184079479ea446e62342de1f809b84d90c29264",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/research/xray-polarimetry/polarimetry-test-720.webp",
+    "path": "images/local/research/polarimetry/retired-renditions/polarimetry-test-720.webp",
+    "sha256": "40103cfae7bc8ac3d4c7fb1500c3380187389a9da353beb145b90652b32b5bf1",
+    "publication": "local",
+    "area": "research/polarimetry/retired-renditions"
+  },
+  {
+    "previous": "images/research/xray-polarimetry/polarimetry-test.webp",
+    "path": "images/local/research/polarimetry/retired-renditions/polarimetry-test.webp",
+    "sha256": "78a2b63a78caa6e0e7142a4566253ece67879b0f68474e1affc3e3e270e3991d",
+    "publication": "local",
+    "area": "research/polarimetry/retired-renditions"
+  },
+  {
+    "previous": "images/safari-pinned-tab.svg",
+    "path": "images/local/identity/safari-pinned-tab.svg",
+    "sha256": "8c12f1e89c965f4affefe5a14b49a9703326d2f47cbb6996e0074b29da0af5e9",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/selected/cygno-copper-vessel-assembly-1000.webp",
+    "path": "images/local/research/cygno/retired-renditions/cygno-copper-vessel-assembly-1000.webp",
+    "sha256": "76f734ded3df3aa1445e679625ef71e1f219826258f3fd4f0f5593378775139b",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/selected/cygno-copper-vessel-assembly-600.webp",
+    "path": "images/local/research/cygno/retired-renditions/cygno-copper-vessel-assembly-600.webp",
+    "sha256": "f7da4585a5e77b8ce451d1d83b2e678de891e323ebebe84e30198c76b0c9ef5b",
+    "publication": "local",
+    "area": "research/cygno/retired-renditions"
+  },
+  {
+    "previous": "images/selected/davide-fiorina-portrait-320.webp",
+    "path": "images/local/personal/portraits/retired-renditions/davide-fiorina-portrait-320.webp",
+    "sha256": "c383486a30d8dd6163b2cfbd50dbb6f6f2865b7bad86b0e1455c803700ee66ac",
+    "publication": "local",
+    "area": "personal/portraits/retired-renditions"
+  },
+  {
+    "previous": "images/selected/davide-fiorina-portrait-640.webp",
+    "path": "images/local/personal/portraits/retired-renditions/davide-fiorina-portrait-640.webp",
+    "sha256": "6cd249806347cad3fb0bba1cc1e72c80675d5269055b7e49bcbd057ae290f823",
+    "publication": "local",
+    "area": "personal/portraits/retired-renditions"
+  },
+  {
+    "previous": "images/selected/detector-school-bench-456.webp",
+    "path": "images/local/teaching/retired-renditions/detector-school-bench-456.webp",
+    "sha256": "1a228c6478b1331eeff1ddefeb8ad4956d754da337d4af79d0c89b52ecb122a8",
+    "publication": "local",
+    "area": "teaching/retired-renditions"
+  },
+  {
+    "previous": "images/selected/goliath-magnet-test-480.webp",
+    "path": "images/local/research/cms-gem/retired-renditions/goliath-magnet-test-480.webp",
+    "sha256": "aad8fd15d76a81013a09d24d552fe4d8a1b948341cca83c9d08a77851ccce256",
+    "publication": "local",
+    "area": "research/cms-gem/retired-renditions"
+  },
+  {
+    "previous": "images/selected/goliath-magnet-test-800.webp",
+    "path": "images/local/research/cms-gem/retired-renditions/goliath-magnet-test-800.webp",
+    "sha256": "25e551912d440f9b6454f69e927dc99dea386a9fce71ed3bb367c476772c2460",
+    "publication": "local",
+    "area": "research/cms-gem/retired-renditions"
+  },
+  {
+    "previous": "images/selected/gran-sasso-school-group-595.webp",
+    "path": "images/local/teaching/retired-renditions/gran-sasso-school-group-595.webp",
+    "sha256": "6457adf2eb65d10e9a80aba47fc71e4a3eea9958313dc908c82f6c983cf2da77",
+    "publication": "local",
+    "area": "teaching/retired-renditions"
+  },
+  {
+    "previous": "images/selected/mountain-lake-hike-480.webp",
+    "path": "images/local/personal/mountains/retired-renditions/mountain-lake-hike-480.webp",
+    "sha256": "9a006a56ad22bbe71dfbd779b46ade88f74128ebc1525784fdde2b948ed40a00",
+    "publication": "local",
+    "area": "personal/mountains/retired-renditions"
+  },
+  {
+    "previous": "images/selected/mountain-lake-hike-960.webp",
+    "path": "images/local/personal/mountains/retired-renditions/mountain-lake-hike-960.webp",
+    "sha256": "a149e28667e06e134602b2c9dde1755e03b4e80e4eab17e8c8372eb2d7eaa249",
+    "publication": "local",
+    "area": "personal/mountains/retired-renditions"
+  },
+  {
+    "previous": "images/selected/optical-tpc-prototype-330.webp",
+    "path": "images/local/research/polarimetry/retired-renditions/optical-tpc-prototype-330.webp",
+    "sha256": "6be5a911c7c9bf6edaadfcca4f79f206933954fa5fbe77ab71ff3b64dbc33a68",
+    "publication": "local",
+    "area": "research/polarimetry/retired-renditions"
+  },
+  {
+    "previous": "images/selected/photoelectron-polarimetry-schematic-597.webp",
+    "path": "images/local/research/polarimetry/retired-renditions/photoelectron-polarimetry-schematic-597.webp",
+    "sha256": "1411ad969646bc2ba0fbaa283315c50cd3a3905335344a8feba100c001ef7736",
+    "publication": "local",
+    "area": "research/polarimetry/retired-renditions"
+  },
+  {
+    "previous": "images/selected/picosec-prototype-readout-707.webp",
+    "path": "images/local/research/picosec/retired-renditions/picosec-prototype-readout-707.webp",
+    "sha256": "cd4f4764837c5f26fc7f415a22abe7cbbc3f3ce5ff1c4290ceb85b3d5623ea31",
+    "publication": "local",
+    "area": "research/picosec/retired-renditions"
+  },
+  {
+    "previous": "images/selected/steam-locomotive-museum-480.webp",
+    "path": "images/local/personal/trains/retired-renditions/steam-locomotive-museum-480.webp",
+    "sha256": "7f94bfda6de33e6c3e199de2b9a83f0ad9f82687637a0961034eebb7ed79631d",
+    "publication": "local",
+    "area": "personal/trains/retired-renditions"
+  },
+  {
+    "previous": "images/selected/steam-locomotive-museum-797.webp",
+    "path": "images/local/personal/trains/retired-renditions/steam-locomotive-museum-797.webp",
+    "sha256": "6b3b8a381f456f5fa7f4b919eda7ddef70bdd01082770960a44daf96fe162b0d",
+    "publication": "local",
+    "area": "personal/trains/retired-renditions"
+  },
+  {
+    "previous": "images/selected/trail-running-hillside-1280.webp",
+    "path": "images/local/personal/trails/retired-renditions/trail-running-hillside-1280.webp",
+    "sha256": "e8073b5f2637f8fff7ea2e78de5c7ff13947e108aca99407173aa1a1a50b66b2",
+    "publication": "local",
+    "area": "personal/trails/retired-renditions"
+  },
+  {
+    "previous": "images/selected/trail-running-hillside-640.webp",
+    "path": "images/local/personal/trails/retired-renditions/trail-running-hillside-640.webp",
+    "sha256": "d66e87f9eee21398804e4aa5dafa5586b0f0c4679004b52384fcffc2ab3ca4c7",
+    "publication": "local",
+    "area": "personal/trails/retired-renditions"
+  },
+  {
+    "previous": "images/site-logo.png",
+    "path": "images/local/identity/site-logo.png",
+    "sha256": "2860aad66ffb7e54099624b71a1cc28f556a4c0a93c4332fc87cd070172c6d3d",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/social-card.png",
+    "path": "images/public/identity/social-card.png",
+    "sha256": "5f6c03bf435129d6c3de889b1388bb4faefcdfaa49f0ff9e76fa35efadc17884",
+    "publication": "public",
+    "area": "identity"
+  },
+  {
+    "previous": "images/social-card.svg",
+    "path": "images/local/identity/social-card.svg",
+    "sha256": "a0350df7ce00f0fff3d5b5f8329144db92ae389de0daea88859ef2c4127e995b",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/teaching/DRD1-school.png",
+    "path": "images/local/teaching/drd1-school.png",
+    "sha256": "5e705cf1e0fccf16258abfc8fa5989cd9490b98b39c35266d7f0b2bd8ef68022",
+    "publication": "local",
+    "area": "teaching"
+  },
+  {
+    "previous": "images/teaching/DRD1-school.webp",
+    "path": "images/local/teaching/retired-renditions/drd1-school.webp",
+    "sha256": "efe0753ed7f114688db31ea4fda01df39dfcfdcaae9b1907a843118d6a7feb2f",
+    "publication": "local",
+    "area": "teaching/retired-renditions"
+  },
+  {
+    "previous": "images/teaching/public-talk.png",
+    "path": "images/local/teaching/public-talk.png",
+    "sha256": "47d27658b5769c353c76835142990cc80f34716702da0c71e516d58d77bdce19",
+    "publication": "local",
+    "area": "teaching"
+  },
+  {
+    "previous": "images/teaching/public-talk.webp",
+    "path": "images/local/teaching/retired-renditions/public-talk.webp",
+    "sha256": "ca37addc1b1f8cfbfcf327af6f7fe05adf3a280aae61b838456cf0fc087b8013",
+    "publication": "local",
+    "area": "teaching/retired-renditions"
+  },
+  {
+    "previous": "images/unipv-logo-320.webp",
+    "path": "images/local/identity/unipv-logo-320.webp",
+    "sha256": "a0570c7f410af929e029b2a884620d9bda2bb583c814b529500c7bb309cff0d5",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/unipv-logo.png",
+    "path": "images/local/identity/unipv-logo.png",
+    "sha256": "b88cdc3b4ea8705bf140bd49434fa81543a04da5a46061d9e97d95a8ae8065a8",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/unipv-logo.webp",
+    "path": "images/local/identity/unipv-logo.webp",
+    "sha256": "07123ad24d3a86d15288a1e799d00a71f039e963938523a9c69bbb8c2adab6c1",
+    "publication": "local",
+    "area": "identity"
+  },
+  {
+    "previous": "images/work_images/cygno-copper-vessel-assembly.jpg",
+    "path": "images/local/research/cygno/cygno-copper-vessel-assembly.jpg",
+    "sha256": "0dab436c13f5c8e4ae9c3db33f1e308cab26a6143217bf8a32ae3e034078b5f6",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/work_images/cygno-copper-vessel-portrait.jpg",
+    "path": "images/local/research/cygno/cygno-copper-vessel-portrait.jpg",
+    "sha256": "69f8e13f60ba1172e73a588523f64bb1c3c0df518a438386c75991aca5f2f310",
+    "publication": "local",
+    "area": "research/cygno"
+  },
+  {
+    "previous": "images/work_images/detector-school-bench.jpg",
+    "path": "images/local/teaching/detector-school-bench.jpg",
+    "sha256": "13022105a8b525831021c470a17aaa3376e9c2389fe2c9b54013d66783982e3b",
+    "publication": "local",
+    "area": "teaching"
+  },
+  {
+    "previous": "images/work_images/gem_gif.png",
+    "path": "images/local/research/cms-gem/gif-detector-work.png",
+    "sha256": "5acc58702e12dfc498044994319961143f41758bf79af2a8c35138b447107550",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/work_images/gem_gif_2.png",
+    "path": "images/local/research/cms-gem/gif-irradiation-detectors.png",
+    "sha256": "97b0bd7e2bde2b72f3b672653131edc5222d88360619a22b126072aad3a0012b",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/work_images/goliath-magnet-test.jpg",
+    "path": "images/local/research/cms-gem/goliath-magnet-test.jpg",
+    "sha256": "efdf490f99ccf0be2fc751caac12d24b0641e514608d7486d50f31e0bd7784d7",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/work_images/gran-sasso-laboratory-cutaway.jpg",
+    "path": "images/local/research/concepts/gran-sasso-laboratory-cutaway.jpg",
+    "sha256": "0375bd250a52281a27820b55a16b2233c42ff819430442d49c808fcd780a4705",
+    "publication": "local",
+    "area": "research/concepts"
+  },
+  {
+    "previous": "images/work_images/gran-sasso-school-group.png",
+    "path": "images/local/teaching/gran-sasso-school-group.png",
+    "sha256": "0995023636ccbcc011c4f73d47ec0a8537d73c2cd414c85c2d9bdb3cb94b49ed",
+    "publication": "local",
+    "area": "teaching"
+  },
+  {
+    "previous": "images/work_images/irradiation-test-setup.jpg",
+    "path": "images/local/research/cms-gem/irradiation-test-setup.jpg",
+    "sha256": "25f6c753c3f039ad7538fe5ce0b33654118d523144089676415eb60e04b9c48f",
+    "publication": "local",
+    "area": "research/cms-gem"
+  },
+  {
+    "previous": "images/work_images/optical-tpc-prototype.jpg",
+    "path": "images/local/research/polarimetry/optical-tpc-prototype.jpg",
+    "sha256": "54941bfa09363cc47fb45a28c84712c1c5e4abd10b72a3c4cc6c478911ee1c5a",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/work_images/photoelectron-polarimetry-schematic.png",
+    "path": "images/local/research/polarimetry/photoelectron-polarimetry-schematic.png",
+    "sha256": "03ed15e780cca654a9ed3ea4d4cf54601a9bf867149cf6faee2fb3b46ebb78fb",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/work_images/picosec-prototype-readout.png",
+    "path": "images/local/research/picosec/picosec-prototype-readout.png",
+    "sha256": "0c21f3c45f4d6a9ce704c89c9c8bbb9868483ae45f6ac252e94e1a2297bc55b6",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/work_images/picosec-test-beam-setup.jpg",
+    "path": "images/local/research/picosec/picosec-test-beam-setup.jpg",
+    "sha256": "24dfab8ca9b522b8f0d1be12f76769179f2d8d89b0d1dd80dda577599530ef66",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/work_images/polarimetry-bench-setup.jpg",
+    "path": "images/local/research/polarimetry/polarimetry-bench-setup.jpg",
+    "sha256": "9c235488286165c32e5d1f11d7c3dd174ca796a5c3701903af48697d1abadb30",
+    "publication": "local",
+    "area": "research/polarimetry"
+  },
+  {
+    "previous": "images/work_images/rocket-launch.jpg",
+    "path": "images/local/research/concepts/rocket-launch.jpg",
+    "sha256": "e269c8b7870245a7315a32b38b4877b4fe831ddf005d765de16d922d9107d0a4",
+    "publication": "local",
+    "area": "research/concepts"
+  },
+  {
+    "previous": "images/work_images/test-beam-team.png",
+    "path": "images/local/research/picosec/test-beam-team.png",
+    "sha256": "4bafbeb305f2fd3d6b7fde9ee15162096a0551d4459d1e6be75f09bcc159aece",
+    "publication": "local",
+    "area": "research/picosec"
+  },
+  {
+    "previous": "images/CEvNS_concept_detector.png",
+    "path": "images/local/research/neutrinos/cevns-detector-concept.png",
+    "sha256": "7de7db2717e028e068313deb1cc8eae61705f5836601c97e1e2932d12b8884e1",
+    "publication": "local",
+    "area": "research/neutrinos"
+  },
+  {
+    "previous": "images/EXPO_instrument.png",
+    "path": "images/local/research/expo/expo-instrument-concept.png",
+    "sha256": "d3e1868f3c38478dd27f3117d2096f3b0e2e51ae08e00291d9ba39dc2fb088ec",
+    "publication": "local",
+    "area": "research/expo"
+  },
+  {
+    "previous": "images/expo_payload.png",
+    "path": "images/local/research/expo/expo-payload-concept.png",
+    "sha256": "a803089e8756305a2ba0d15d9e7c3dd93e41d876346894c88b3535b373511a15",
+    "publication": "local",
+    "area": "research/expo"
+  },
+  {
+    "previous": "images/public/personal/trails/trail-race-stone-steps-360.webp",
+    "path": "images/local/personal/trails/retired-renditions/trail-race-stone-steps-360.webp",
+    "sha256": "e3590d735ac50774d3ffb311240c79b079ba4cb57700604ada9291e8bee0ece3",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/public/personal/trails/trail-race-stone-steps-720.webp",
+    "path": "images/local/personal/trails/retired-renditions/trail-race-stone-steps-720.webp",
+    "sha256": "23b1335fa3588df65e32feae47c4d22166fc8db57408c3dbdf0dbf28e9bcadb1",
+    "publication": "local",
+    "area": "personal/trails"
+  },
+  {
+    "previous": "images/public/personal/mountains/mountain-lake-hike-360.webp",
+    "path": "images/local/personal/mountains/retired-renditions/mountain-lake-hike-360.webp",
+    "sha256": "ec09bb43ac9f70d9c0074a80bb731b59daa7b50f1812ef91cce331daedefcc27",
+    "publication": "local",
+    "area": "personal/mountains"
+  },
+  {
+    "previous": "images/public/personal/mountains/mountain-lake-hike-720.webp",
+    "path": "images/local/personal/mountains/retired-renditions/mountain-lake-hike-720.webp",
+    "sha256": "fdd8ff477ea40675d04de46cf3e83b15083f82049bc1ae085e1873b655c5ca57",
+    "publication": "local",
+    "area": "personal/mountains"
+  }
+]

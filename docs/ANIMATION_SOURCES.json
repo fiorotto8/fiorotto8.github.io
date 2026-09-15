@@ -1,0 +1,26 @@
+[
+  {
+    "key": "dark-matter",
+    "repository": "https://github.com/fiorotto8/DirectionalDM_animations",
+    "commit": "cda6569b3ec0ba5c2fe4ffed491dacbc06ba9a26",
+    "source": "media/videos/01_galactic_wind/480p30/GalacticWind.mp4",
+    "public": "images/public/research/cygno/galactic-wind.mp4",
+    "sha256": "a1a079547a8e72b201e2410205062fab37988a6c78138132b9b262f4c05284bc",
+    "poster": "images/public/research/cygno/galactic-wind.webp",
+    "poster_frame_seconds": 25,
+    "modified": false,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "key": "polarimetry",
+    "repository": "https://github.com/fiorotto8/XPol_art",
+    "commit": "f398cebea5c2dc50b9047fb1800c8f2aee6220b3",
+    "source": "animations/landscape/480p30/tracks_to_modulation_animation.mp4",
+    "public": "images/public/research/polarimetry/tracks-to-modulation.mp4",
+    "sha256": "6fd82ab3d2c9dc2199d96db230ff2dd3f34093ef7b0036bfca91647f92a3cf4f",
+    "poster": "images/public/research/polarimetry/tracks-to-modulation.webp",
+    "poster_frame_seconds": 8,
+    "modified": false,
+    "license": "CC-BY-4.0"
+  }
+]

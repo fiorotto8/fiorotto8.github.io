@@ -1,0 +1,20 @@
+{
+  "dark-matter": {
+    "title": "Why the wind appears from Cygnus",
+    "duration": "40 seconds",
+    "src": "/images/public/research/cygno/galactic-wind.mp4",
+    "poster": "/images/public/research/cygno/galactic-wind.webp",
+    "summary": "An illustration of the Galactic halo and the apparent dark matter wind in the Solar System’s frame.",
+    "description": "A dark matter halo surrounds the visible Galactic disk. The Sun moves through this halo. Changing to the Solar System’s frame gives an apparent incoming wind. The sightline towards Cygnus points outwards, while the incoming particles travel towards the observer. This directional pattern is the motivation for measuring recoil directions. The animation uses an illustrative halo model.",
+    "repository": "https://github.com/fiorotto8/DirectionalDM_animations"
+  },
+  "polarimetry": {
+    "title": "From electron tracks to polarisation",
+    "duration": "12 seconds",
+    "src": "/images/public/research/polarimetry/tracks-to-modulation.mp4",
+    "poster": "/images/public/research/polarimetry/tracks-to-modulation.webp",
+    "summary": "Simulated tracks build up an angular distribution that carries the polarisation signature.",
+    "description": "Individual simulated photoelectron tracks appear in a gas volume. Their reconstructed starting directions are collected into an angular distribution. With more tracks, a preferred orientation becomes visible. The phase of the modulation carries information about the polarisation angle; its amplitude also depends on polarisation degree and detector response. This is an illustrative simulation with a declared detector-response model; the numbers shown are not measured performance of the optical TPC.",
+    "repository": "https://github.com/fiorotto8/XPol_art"
+  }
+}

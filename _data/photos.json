@@ -1,0 +1,342 @@
+{
+  "davide-fiorina-portrait": {
+    "src": "/images/public/personal/portraits/davide-fiorina-portrait-640.webp",
+    "width": 640,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/images/public/personal/portraits/davide-fiorina-portrait-320.webp",
+        "width": 320,
+        "height": 400
+      },
+      {
+        "src": "/images/public/personal/portraits/davide-fiorina-portrait-640.webp",
+        "width": 640,
+        "height": 800
+      }
+    ]
+  },
+  "garden-walk": {
+    "src": "/images/public/personal/travel-and-life/garden-walk-720.webp",
+    "width": 720,
+    "height": 957,
+    "variants": [
+      {
+        "src": "/images/public/personal/travel-and-life/garden-walk-360.webp",
+        "width": 360,
+        "height": 478
+      },
+      {
+        "src": "/images/public/personal/travel-and-life/garden-walk-720.webp",
+        "width": 720,
+        "height": 957
+      }
+    ]
+  },
+  "steam-locomotive-museum": {
+    "src": "/images/public/personal/trains/steam-locomotive-museum-720.webp",
+    "width": 720,
+    "height": 957,
+    "variants": [
+      {
+        "src": "/images/public/personal/trains/steam-locomotive-museum-360.webp",
+        "width": 360,
+        "height": 478
+      },
+      {
+        "src": "/images/public/personal/trains/steam-locomotive-museum-720.webp",
+        "width": 720,
+        "height": 957
+      }
+    ]
+  },
+  "trail-running-hillside": {
+    "src": "/images/public/personal/trails/trail-running-hillside-960.webp",
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/images/public/personal/trails/trail-running-hillside-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/images/public/personal/trails/trail-running-hillside-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ]
+  },
+  "photoelectron-polarimetry-schematic": {
+    "src": "/images/public/research/polarimetry/photoelectron-polarimetry-schematic-597.webp",
+    "width": 597,
+    "height": 557,
+    "variants": [
+      {
+        "src": "/images/public/research/polarimetry/photoelectron-polarimetry-schematic-300.webp",
+        "width": 300,
+        "height": 280
+      },
+      {
+        "src": "/images/public/research/polarimetry/photoelectron-polarimetry-schematic-597.webp",
+        "width": 597,
+        "height": 557
+      }
+    ]
+  },
+  "cygno-copper-vessel-assembly": {
+    "src": "/images/public/research/cygno/cygno-copper-vessel-assembly-720.webp",
+    "width": 720,
+    "height": 956,
+    "variants": [
+      {
+        "src": "/images/public/research/cygno/cygno-copper-vessel-assembly-360.webp",
+        "width": 360,
+        "height": 478
+      },
+      {
+        "src": "/images/public/research/cygno/cygno-copper-vessel-assembly-720.webp",
+        "width": 720,
+        "height": 956
+      }
+    ]
+  },
+  "cygno04-cleanroom": {
+    "src": "/images/public/research/cygno/cygno04-cleanroom-720.webp",
+    "width": 720,
+    "height": 715,
+    "variants": [
+      {
+        "src": "/images/public/research/cygno/cygno04-cleanroom-360.webp",
+        "width": 360,
+        "height": 357
+      },
+      {
+        "src": "/images/public/research/cygno/cygno04-cleanroom-720.webp",
+        "width": 720,
+        "height": 715
+      }
+    ]
+  },
+  "cleanroom-assembly": {
+    "src": "/images/public/research/cygno/cleanroom-assembly-640.webp",
+    "width": 640,
+    "height": 850,
+    "variants": [
+      {
+        "src": "/images/public/research/cygno/cleanroom-assembly-320.webp",
+        "width": 320,
+        "height": 425
+      },
+      {
+        "src": "/images/public/research/cygno/cleanroom-assembly-640.webp",
+        "width": 640,
+        "height": 850
+      }
+    ]
+  },
+  "optical-tpc-prototype": {
+    "src": "/images/public/research/polarimetry/optical-tpc-prototype-720.webp",
+    "width": 720,
+    "height": 542,
+    "variants": [
+      {
+        "src": "/images/public/research/polarimetry/optical-tpc-prototype-360.webp",
+        "width": 360,
+        "height": 271
+      },
+      {
+        "src": "/images/public/research/polarimetry/optical-tpc-prototype-720.webp",
+        "width": 720,
+        "height": 542
+      }
+    ]
+  },
+  "detector-school-bench": {
+    "src": "/images/public/teaching/detector-school-bench-720.webp",
+    "width": 720,
+    "height": 956,
+    "variants": [
+      {
+        "src": "/images/public/teaching/detector-school-bench-360.webp",
+        "width": 360,
+        "height": 478
+      },
+      {
+        "src": "/images/public/teaching/detector-school-bench-720.webp",
+        "width": 720,
+        "height": 956
+      }
+    ]
+  },
+  "gran-sasso-school-group": {
+    "src": "/images/public/teaching/gran-sasso-school-group-960.webp",
+    "width": 960,
+    "height": 547,
+    "variants": [
+      {
+        "src": "/images/public/teaching/gran-sasso-school-group-480.webp",
+        "width": 480,
+        "height": 274
+      },
+      {
+        "src": "/images/public/teaching/gran-sasso-school-group-960.webp",
+        "width": 960,
+        "height": 547
+      }
+    ]
+  },
+  "test-beam-team": {
+    "src": "/images/public/research/picosec/test-beam-team-960.webp",
+    "width": 960,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/images/public/research/picosec/test-beam-team-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/images/public/research/picosec/test-beam-team-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  "gif-detector-work": {
+    "src": "/images/public/research/cms-gem/gif-detector-work-720.webp",
+    "width": 720,
+    "height": 722,
+    "variants": [
+      {
+        "src": "/images/public/research/cms-gem/gif-detector-work-360.webp",
+        "width": 360,
+        "height": 361
+      },
+      {
+        "src": "/images/public/research/cms-gem/gif-detector-work-720.webp",
+        "width": 720,
+        "height": 722
+      }
+    ]
+  },
+  "gif-irradiation-detectors": {
+    "src": "/images/public/research/cms-gem/gif-irradiation-detectors-720.webp",
+    "width": 720,
+    "height": 746,
+    "variants": [
+      {
+        "src": "/images/public/research/cms-gem/gif-irradiation-detectors-360.webp",
+        "width": 360,
+        "height": 373
+      },
+      {
+        "src": "/images/public/research/cms-gem/gif-irradiation-detectors-720.webp",
+        "width": 720,
+        "height": 746
+      }
+    ]
+  },
+  "cevns-detector-concept": {
+    "src": "/images/public/research/neutrinos/cevns-detector-concept-720.webp",
+    "width": 720,
+    "height": 433,
+    "variants": [
+      {
+        "src": "/images/public/research/neutrinos/cevns-detector-concept-360.webp",
+        "width": 360,
+        "height": 217
+      },
+      {
+        "src": "/images/public/research/neutrinos/cevns-detector-concept-720.webp",
+        "width": 720,
+        "height": 433
+      }
+    ]
+  },
+  "expo-instrument-concept": {
+    "src": "/images/public/research/expo/expo-instrument-concept-720.webp",
+    "width": 720,
+    "height": 391,
+    "variants": [
+      {
+        "src": "/images/public/research/expo/expo-instrument-concept-360.webp",
+        "width": 360,
+        "height": 195
+      },
+      {
+        "src": "/images/public/research/expo/expo-instrument-concept-720.webp",
+        "width": 720,
+        "height": 391
+      }
+    ]
+  },
+  "expo-payload-concept": {
+    "src": "/images/public/research/expo/expo-payload-concept-720.webp",
+    "width": 720,
+    "height": 521,
+    "variants": [
+      {
+        "src": "/images/public/research/expo/expo-payload-concept-360.webp",
+        "width": 360,
+        "height": 260
+      },
+      {
+        "src": "/images/public/research/expo/expo-payload-concept-720.webp",
+        "width": 720,
+        "height": 521
+      }
+    ]
+  },
+  "polarimetry-laboratory-work": {
+    "src": "/images/public/research/polarimetry/polarimetry-laboratory-work-720.webp",
+    "width": 720,
+    "height": 539,
+    "variants": [
+      {
+        "src": "/images/public/research/polarimetry/polarimetry-laboratory-work-360.webp",
+        "width": 360,
+        "height": 270
+      },
+      {
+        "src": "/images/public/research/polarimetry/polarimetry-laboratory-work-720.webp",
+        "width": 720,
+        "height": 539
+      }
+    ]
+  },
+  "mountain-lake-portrait": {
+    "src": "/images/public/personal/mountains/mountain-lake-portrait-720.webp",
+    "width": 720,
+    "height": 957,
+    "variants": [
+      {
+        "src": "/images/public/personal/mountains/mountain-lake-portrait-360.webp",
+        "width": 360,
+        "height": 478
+      },
+      {
+        "src": "/images/public/personal/mountains/mountain-lake-portrait-720.webp",
+        "width": 720,
+        "height": 957
+      }
+    ]
+  },
+  "public-talk": {
+    "src": "/images/public/teaching/public-talk-554.webp",
+    "width": 554,
+    "height": 386,
+    "variants": [
+      {
+        "src": "/images/public/teaching/public-talk-320.webp",
+        "width": 320,
+        "height": 223
+      },
+      {
+        "src": "/images/public/teaching/public-talk-554.webp",
+        "width": 554,
+        "height": 386
+      }
+    ]
+  }
+}
