@@ -284,7 +284,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
-  jekyll-feed
   jekyll-sitemap
 
 BUNDLED WITH

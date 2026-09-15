@@ -1,0 +1,5 @@
+<li class="record talk-record">
+  <span class="record-year">{{ include.talk.year }}</span>
+  <div><h3>{% if include.talk.url %}<a href="{{ include.talk.url | escape }}">{{ include.talk.title | escape }}</a>{% else %}{{ include.talk.title | escape }}{% endif %}</h3><p class="record-meta">{{ include.talk.event | escape }}</p></div>
+  <span class="talk-type">{{ include.talk.type }}</span>
+</li>

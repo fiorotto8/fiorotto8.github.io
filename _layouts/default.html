@@ -1,33 +1,36 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="en-GB">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    <meta name="theme-color" content="#f4f0fb">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="{{ '/images/public/identity/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ '/images/public/identity/apple-touch-icon.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/images/public/identity/manifest.json' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </head>
-
-  <body class="{% if page.layout == 'portfolio-page' %}portfolio-theme{% endif %}">
-
-    <a class="skip-link" href="{% if page.layout == 'portfolio-page' %}#main-content{% else %}#main{% endif %}">Skip to main content</a>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
+  <body data-section="intro">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner shell">
+        <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Davide Fiorina, home">Davide Fiorina</a>
+        <nav aria-label="Main navigation"><ul class="nav-links">
+          {% for item in site.data.navigation.main %}
+          <li><a href="{{ '/' | relative_url }}#{{ item.id }}" data-nav="{{ item.id }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul></nav>
+        <a class="header-cv" href="{{ '/files/CV.pdf' | relative_url }}">CV<span class="sr-only"> (PDF)</span></a>
+      </div>
+      <div class="reading-progress" aria-hidden="true"><span></span></div>
+    </header>
+    <main id="main-content" tabindex="-1">{{ content }}</main>
+    <footer class="site-footer shell">
+      <p>© {{ site.time | date: '%Y' }} {{ site.name }}</p>
+      <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> · <a href="https://github.com/{{ site.repository }}">Source</a></p>
+      <a href="{{ '/' | relative_url }}#intro">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
   </body>
 </html>

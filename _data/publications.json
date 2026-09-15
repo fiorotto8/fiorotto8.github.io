@@ -1,0 +1,98 @@
+[
+  {
+    "year": 2025,
+    "title": "A Large-Area Optical Time Projection Chamber for Hard X-ray Polarimetry with Directional Imaging of Low-Energy Electron Recoils",
+    "url": "https://arxiv.org/abs/2510.26239",
+    "venue": "arXiv preprint"
+  },
+  {
+    "year": 2026,
+    "title": "Modeling the light response of an optically readout GEM based TPC for the CYGNO experiment",
+    "url": "https://doi.org/10.1140/epjc/s10052-026-15318-7",
+    "venue": "The European Physical Journal C"
+  },
+  {
+    "year": 2025,
+    "title": "Study on discharge and short-circuit generation in CMS GE1/1 triple-GEM detectors during Run 3",
+    "url": "https://doi.org/10.1088/1748-0221/20/05/P05035",
+    "venue": "JINST"
+  },
+  {
+    "year": 2025,
+    "title": "Single channel PICOSEC Micromegas detector with improved time resolution",
+    "url": "https://doi.org/10.1016/j.nima.2024.170127",
+    "venue": "Nuclear Instruments and Methods in Physics Research A"
+  },
+  {
+    "year": 2025,
+    "title": "Photocathode characterisation for robust PICOSEC Micromegas precise-timing detectors",
+    "url": "https://doi.org/10.1016/j.nima.2024.170151",
+    "venue": "Nuclear Instruments and Methods in Physics Research A"
+  },
+  {
+    "year": 2024,
+    "title": "Enhancing the light yield of He:CF4 based gaseous detector",
+    "url": "https://dx.doi.org/10.1140/epjc/s10052-024-13471-5",
+    "venue": "The European Physical Journal C"
+  },
+  {
+    "year": 2024,
+    "title": "A novel diamond-like carbon based photocathode for PICOSEC Micromegas detectors",
+    "url": "https://doi.org/10.1088/1748-0221/19/08/P08010",
+    "venue": "JINST"
+  },
+  {
+    "year": 2024,
+    "title": "Charge amplification in low-pressure CF4:SF6:He mixtures with a multi-mesh THGEM for directional Dark Matter searches",
+    "url": "https://doi.org/10.1088/1748-0221/19/06/P06021",
+    "venue": "JINST"
+  },
+  {
+    "year": 2024,
+    "title": "Development of the CMS detector for the CERN LHC Run 3",
+    "url": "https://doi.org/10.1088/1748-0221/19/05/P05064",
+    "venue": "JINST"
+  },
+  {
+    "year": 2023,
+    "title": "Impact of magnetic field on the stability of the CMS GE1/1 GEM detector operation",
+    "url": "https://doi.org/10.1088/1748-0221/18/11/P11029",
+    "venue": "JINST"
+  },
+  {
+    "year": 2023,
+    "title": "Towards a muon collider",
+    "url": "https://doi.org/10.1140/epjc/s10052-023-11889-x",
+    "venue": "The European Physical Journal C"
+  },
+  {
+    "year": 2022,
+    "title": "Quality control of mass-produced GEM detectors for the CMS GE1/1 muon upgrade",
+    "url": "https://doi.org/10.1016/j.nima.2022.166716",
+    "venue": "Nuclear Instruments and Methods in Physics Research A"
+  },
+  {
+    "year": 2021,
+    "title": "Performance of a triple-GEM demonstrator in pp collisions at the CMS detector",
+    "url": "https://doi.org/10.1088/1748-0221/16/11/P11014",
+    "venue": "JINST"
+  },
+  {
+    "year": 2020,
+    "title": "Triple-GEM discharge probability studies at CHARM: simulations and experimental results",
+    "url": "https://doi.org/10.1088/1748-0221/15/10/P10013",
+    "venue": "JINST"
+  },
+  {
+    "year": 2020,
+    "title": "Interstrip capacitances of the readout board used in large triple-GEM detectors for the CMS Muon Upgrade",
+    "url": "https://doi.org/10.1088/1748-0221/15/12/P12019",
+    "venue": "JINST"
+  },
+  {
+    "year": 2020,
+    "title": "Performance of prototype GE1/1 chambers for the CMS muon spectrometer upgrade",
+    "url": "https://doi.org/10.1016/j.nima.2020.164104",
+    "venue": "Nuclear Instruments and Methods in Physics Research A"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "year": 2026,
+    "title": "When Spin adds to N²: a proposal to probe the axial side of CEvNS with Fluorine.",
+    "event": "WHAT ELSE — N² is better than N, LNGS, Italy",
+    "type": "Invited",
+    "url": "https://agenda.infn.it/event/51443/timetable/?print=1"
+  },
+  {
+    "year": 2026,
+    "title": "The CYGNO experiment.",
+    "event": "9th CYGNUS Workshop on Directional Recoil Detection, Kobe, Japan",
+    "type": "Invited",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "CYGNO04 Status, Assembly Procedure and Timeline.",
+    "event": "CYGNO Collaboration Meeting, Clusone, Italy",
+    "type": "Invited",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "Polarimetry R&D status.",
+    "event": "CYGNO Collaboration Meeting, Clusone, Italy",
+    "type": "Invited",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "The CYGNO experiment, a gaseous TPC for directional Dark Matter searches.",
+    "event": "TAUP 2025, Xichang, China",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "The CYGNO experiment, a gaseous TPC for directional Dark Matter searches.",
+    "event": "EPS-HEP 2025, Marseille, France",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "X-POT: X-ray Polarimetry with Optical Time Projection Chamber.",
+    "event": "ASAPP 2025, Girona, Spain",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "A Large-Volume, Extended Field-of-View TPC for X-ray Polarimetry.",
+    "event": "IFD 2025, Sestri Levante, Italy",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "Photoelectric polarimeters R&D.",
+    "event": "FiXP Academy, L'Aquila, Italy",
+    "type": "Invited",
+    "url": null
+  },
+  {
+    "year": 2025,
+    "title": "Triple-GEM TPC for X-ray polarimetry.",
+    "event": "4th DRD1 Collaboration Meeting, CERN, Switzerland",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2024,
+    "title": "The CYGNO experiment, a gaseous TPC for directional Dark Matter searches.",
+    "event": "MPGD 2024, Hefei, China",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2024,
+    "title": "Development and Preliminary Results of a Large-Volume Time Projection Chamber for X-ray Polarimetry.",
+    "event": "MPGD 2024, Hefei, China",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2024,
+    "title": "HypeX: High Yield Polarimetry Experiment in X-rays.",
+    "event": "SPIE AS24, Yokohama, Japan",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2023,
+    "title": "PICOSEC Micromegas detector for precise muon timing in the Muon Collider detector.",
+    "event": "FAST 2023, Elba Island, Italy",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2023,
+    "title": "Status and plans for the study of X-ray polarimetry.",
+    "event": "CYGNO Collaboration Meeting, Frascati National Laboratories, Italy",
+    "type": "Invited",
+    "url": null
+  },
+  {
+    "year": 2023,
+    "title": "Study of the pedestal stability.",
+    "event": "CYGNO Collaboration Meeting, Frascati National Laboratories, Italy",
+    "type": "Invited",
+    "url": null
+  },
+  {
+    "year": 2023,
+    "title": "PICOSEC for the Muon Collider detector.",
+    "event": "RD51 Mini-Week, CERN, Switzerland",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2022,
+    "title": "PICOSEC Micromegas: a fast-timing gaseous detector for MIPs.",
+    "event": "IFD 2022, Bari, Italy",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2022,
+    "title": "Rate capability and high-rate GEM foil optimization for the CMS ME0 detector.",
+    "event": "RD51 Collaboration Meeting, CERN, Switzerland",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2021,
+    "title": "Status and commissioning of the new GE1/1 station for the CMS experiment.",
+    "event": "EPS-HEP 2021, DESY, Germany",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2021,
+    "title": "The gas monitoring system for safe operation of the CMS triple-GEM detectors.",
+    "event": "SIF 2021, Milan, Italy",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2020,
+    "title": "ME0 project for the Triple-GEM upgrade of the CMS muon spectrometer: design, preliminary performance and R&D perspective.",
+    "event": "SIF 2020, Milan, Italy",
+    "type": "Parallel",
+    "url": null
+  },
+  {
+    "year": 2019,
+    "title": "Aging studies on Triple-GEM detectors for future upgrades of the CMS endcap muon spectrometer at the HL-LHC.",
+    "event": "IPRD 2019, Siena, Italy",
+    "type": "Plenary",
+    "url": null
+  },
+  {
+    "year": 2018,
+    "title": "Advanced aging study on Triple-GEM for GE2/1 and ME0.",
+    "event": "SIF 2018, Rende, Italy",
+    "type": "Parallel",
+    "url": null
+  }
+]
